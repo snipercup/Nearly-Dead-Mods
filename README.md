@@ -6,6 +6,5 @@ Mods for the game Nearly Dead. If you found this you are early! The closed alpha
 - Location addition mods
 
 ## Community:
-Steam: https://steamcommunity.com/app/1268900 (You can find the discord and kickstarter link on the store page)
-
-Reddit: https://www.reddit.com/r/NearlyDead/
+- Steam: https://steamcommunity.com/app/1268900 (You can find the discord and kickstarter link on the store page)
+- Reddit: https://www.reddit.com/r/NearlyDead/
