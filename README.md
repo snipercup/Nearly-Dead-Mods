@@ -1,5 +1,5 @@
 # Nearly-Dead-Mods
-Mods for the game Nearly Dead. If you found this you are early! The closed alpha isn't released yet. Can't even setup a folder structure because the folder structure for nearly dead is still unknown.
+Mods for the game Nearly Dead. The alpha was released december 31, 2020. Looking forward to modding it.
 
 ## Plans for mods:
 - Item addition mods
