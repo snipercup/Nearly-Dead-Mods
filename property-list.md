@@ -3,7 +3,7 @@
 This page lists properties defined in JSON. This list is useful if you want to mod the game and want to know what each property does.
 
 ## Common properties
-
+These are properties that are shared between multiple item types
 
 ### General
 Property | Description
@@ -12,7 +12,7 @@ ID | An identifier for this item. Don't use spaces. Has to be unique for the typ
 Name | The name as it appears in-game.
 Description | The description of the entity as it will appear in-game.
 
-### Connom data
+### Common data
 Property | Description
 ------------ | -------------
 Size | The amount of space it takes up in the inventory
@@ -24,6 +24,24 @@ Is mergable | Wether or not the two items of the same kind can merge into a stac
 Base stack | What amount will spawn when a full stack is spawned
 Is tool | Wether or not this item can be used as a tool while crafting. If this is enabled, it allows you to set a tool quality to this item.
 Set tool data | Configure what tool qualities this item has. This determines what recipes will be able to use this tool.
+
+### Activating data
+Property | Description
+------------ | -------------
+Method type | Todo: Figure out what this is used for
+
+### Throw data
+Property | Description
+------------ | -------------
+Can throw | If this is enabled, the player can throw this item. You can set the amount of damage etc. once it it is enabled.
+Damage type | The type of damage that will be dealt when this item is thrown and hits the enemy
+Damage | The amount of damage it will deal when it hits an enemy
+Accuracy | How accurate the item can be thrown
+Max range | Determines the maximum distance the item can be thrown
+Projectile speed | The speed at wich the item travels when thrown
+Use GFX | Todo: Figure out what this is used for. Probably a special effect
+Set throwing GFX | Only visible when 'Use GFX' is enabled. Todo: Figure out what this is used for
+Throwing SFX | The sound effect that plays when the item is thrown
 
 
 ## Item type food
