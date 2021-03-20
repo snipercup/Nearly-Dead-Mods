@@ -84,9 +84,9 @@ Use own GFX | Todo: Figure out what this is used for
 #### Bottle
 Property | Description
 ------------ | -------------
-Container capacity size | Todo: Figure out what this is used for
-Contain liquid ID | Todo: Figure out what this is used for
-Empty bottle ID | Todo: Figure out what this is used for
+Container capacity size | Todo: Figure out what this is used for.
+Contain liquid ID | The liquid it contains when it is spawned. For example: 'canned cola' has this set to 'cola'
+Empty bottle ID | The item that is returned when bottle is empty. For example: 'canned cola' has this set to 'opened_aluminium_can'
 Use own GFX | Todo: Figure out what this is used for
 
 #### Magazine
@@ -112,3 +112,70 @@ Capacity | Todo: Figure out what this is used for
 
 #### None
 The default value. Use this to indicate that the item is not a container
+
+## Recipies
+
+#### General
+Property | Description
+------------ | -------------
+ID | An identifier for this recipe. Don't use spaces. Has to be unique for the type of entity (for example, no two tools can be identified as 'hammer' at the same time, but you can have one 'hammer' tool and one 'hammer' recipe)
+Name | The name as it appears in-game.
+
+#### Common data
+Property | Description
+------------ | -------------
+Description | The description of the entity as it will appear in-game.
+Time | The time used to make this (seconds?)
+partial_time | TODO
+Autolearn | If anabled, you can set the conditions for when the recipe is learned. If disabled, the player needs to learn this recipe from a book or something else.
+Autolearn skill type | The type of skill used to determine when the recipe is learned
+Skill level | The level of the skill that is required to learn the recipe
+Recipe main category | This sets under which main tab in the crafting menu the recipe will appear
+Recipe sub category | This sets under which sub tab in the crafting menu the recipe will appear
+Animation call ID | TODO
+
+#### Recipe result
+Property | Description
+------------ | -------------
+Result item ID | The item that results from the recipe when crafting. May contain more then one item
+Result item count | The amount of items that will result from this recipe. You can set this for each item that is returned.
+
+#### Required tool quality
+This allows you to set the quality of the tools needed to craft the recipe. 
+
+#### Skill difficulty
+Property | Description
+------------ | -------------
+Skill ID | The skill that is required to craft this recipe. It's possible to add more then one skill to increase difficulty.
+Level | The level of skill required to craft this recipe.
+
+#### Recipe component
+Here you can set the items used while crafting this recipe
+
+##### Consume component
+These items will be consumed when making this recipe
+
+Property | Description
+------------ | -------------
+Component ID | The ID of the item that is required to craft this recipe. Multiple components may be configured
+Amount | The amount of the item required to craft this recipe
+
+##### Don't consume component
+These items will not be consumed when making this recipe. For example, a pan
+
+Property | Description
+------------ | -------------
+Component ID | The ID of the item that is required to craft this recipe. Multiple components may be configured
+Amount | The amount of the item required to craft this recipe
+
+##### Material component
+The material used in this recipe. 
+
+Property | Description
+------------ | -------------
+Material ID | The ID of the material that is required to craft this recipe. Multiple materials may be configured
+Amount | The amount of the material required to craft this recipe
+
+
+#### Consuming condition
+TODO. I think this allows you to set the required level of stamina, health etc. for making this recipe. 
