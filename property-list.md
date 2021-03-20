@@ -95,3 +95,17 @@ Property | Description
 Container capacity size | Todo: Figure out what this is used for.
 Ammo type | Select the ammo type this container will be able to hold.
 Bullet count | The maximum amount of ammunition this container can hold.
+Use own GFX | Todo: Figure out what this is used for
+
+#### Charging_storage
+Property | Description
+------------ | -------------
+Charging type | The type of material this container is charged with. For example, a battery would be charged with electric_power
+Default amount | The amount of charges this item is spawned with
+Max amount | The maximum amount of charges this item can hold
+Delta per hour | Todo: Figure out what this is used for
+
+#### Add_to_Baee_Inventory
+Property | Description
+------------ | -------------
+Capacity | Todo: Figure out what this is used for
