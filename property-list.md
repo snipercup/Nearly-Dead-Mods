@@ -43,6 +43,15 @@ Use GFX | Todo: Figure out what this is used for. Probably a special effect
 Set throwing GFX | Only visible when 'Use GFX' is enabled. Todo: Figure out what this is used for
 Throwing SFX | The sound effect that plays when the item is thrown
 
+### Material data
+Property | Description
+------------ | -------------
+Set charging type | Todo: Figure out what it is used for. It is used in composite_fiber_thread
+Can disassemble | Wether or not the item can be disassembled. When enabled, it allows you to set the requirements and results of disassembly
+Required tool quality | The tool qualities used to disassemble this item. The player needs to have tools that have these qualities in order to succesfully disaassemble the item.
+Skill difficulty | What skills are required to disassemble the item
+Disassemble data | What items and how many will result from the disassembly.
+
 
 ## Item type food
 Property | Description
