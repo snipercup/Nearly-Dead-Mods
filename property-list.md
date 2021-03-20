@@ -5,14 +5,14 @@ This page lists properties defined in JSON. This list is useful if you want to m
 ## Common properties
 These are properties that are shared between multiple item types
 
-### General
+#### General
 Property | Description
 ------------ | -------------
 ID | An identifier for this item. Don't use spaces. Has to be unique for the type of entity (for example, no two tools can be identified as 'hammer' at the same time, but you can have one 'hammer' tool and one 'hammer' recipe)
 Name | The name as it appears in-game.
 Description | The description of the entity as it will appear in-game.
 
-### Common data
+#### Common data
 Property | Description
 ------------ | -------------
 Size | The amount of space it takes up in the inventory
