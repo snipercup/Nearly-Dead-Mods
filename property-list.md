@@ -25,12 +25,12 @@ Base stack | What amount will spawn when a full stack is spawned
 Is tool | Wether or not this item can be used as a tool while crafting. If this is enabled, it allows you to set a tool quality to this item.
 Set tool data | Configure what tool qualities this item has. This determines what recipes will be able to use this tool.
 
-### Activating data
+#### Activating data
 Property | Description
 ------------ | -------------
 Method type | Todo: Figure out what this is used for
 
-### Throw data
+#### Throw data
 Property | Description
 ------------ | -------------
 Can throw | If this is enabled, the player can throw this item. You can set the amount of damage etc. once it it is enabled.
@@ -43,7 +43,7 @@ Use GFX | Todo: Figure out what this is used for. Probably a special effect
 Set throwing GFX | Only visible when 'Use GFX' is enabled. Todo: Figure out what this is used for
 Throwing SFX | The sound effect that plays when the item is thrown
 
-### Material data
+#### Material data
 Property | Description
 ------------ | -------------
 Set charging type | Todo: Figure out what it is used for. It is used in composite_fiber_thread
@@ -52,12 +52,12 @@ Required tool quality | The tool qualities used to disassemble this item. The pl
 Skill difficulty | What skills are required to disassemble the item
 Disassemble data | What items and how many will result from the disassembly.
 
-### Item type
+#### Item type
 Property | Description
 ------------ | -------------
 Item type | The type of item. Changing this will cause the available properties to set. For example, if you change the item type of a plastic chunk from component to weapon, you can configure damage types and amounts for it. If you change the weapon type for plank from weapon to component, it loses the weapon data that was previously configured.
 
-### Is liquid
+#### Is liquid
 Property | Description
 ------------ | -------------
 Is liquid | Wether or not this item is liquid. If enabled, the item can no longer be held in your hands but can be stored in container that can contain liquids.
@@ -73,7 +73,7 @@ Fun | The amount your morale increases when consuming this item
 ## Container data
 These fields are visible when 'Container type' is set to a value, for example 'charging_storage' or 'Bottle'. The fields below are listed for each type.
 
-### Pack
+#### Pack
 Property | Description
 ------------ | -------------
 Container capacity size | Todo: Figure out what this is used for
@@ -81,7 +81,7 @@ Contain item ID | Todo: Figure out what this is used for
 Empty bottle ID | Todo: Figure out what this is used for
 Use own GFX | Todo: Figure out what this is used for
 
-### Bottle
+#### Bottle
 Property | Description
 ------------ | -------------
 Container capacity size | Todo: Figure out what this is used for
@@ -89,7 +89,7 @@ Contain liquid ID | Todo: Figure out what this is used for
 Empty bottle ID | Todo: Figure out what this is used for
 Use own GFX | Todo: Figure out what this is used for
 
-### Magazine
+#### Magazine
 Property | Description
 ------------ | -------------
 Container capacity size | Todo: Figure out what this is used for.
