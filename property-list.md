@@ -113,7 +113,7 @@ Capacity | Todo: Figure out what this is used for
 #### None
 The default value. Use this to indicate that the item is not a container
 
-## Recipies
+## Recipes
 
 #### General
 Property | Description
