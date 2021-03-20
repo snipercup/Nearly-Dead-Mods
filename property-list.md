@@ -57,6 +57,11 @@ Property | Description
 ------------ | -------------
 Item type | The type of item. Changing this will cause the available properties to set. For example, if you change the item type of a plastic chunk from component to weapon, you can configure damage types and amounts for it. If you change the weapon type for plank from weapon to component, it loses the weapon data that was previously configured.
 
+### Is liquid
+Property | Description
+------------ | -------------
+Is liquid | Wether or not this item is liquid. If enabled, the item can no longer be held in your hands but can be stored in container that can contain liquids.
+
 
 ## Item type food
 Property | Description
@@ -65,8 +70,28 @@ Expiration date | Days before the item can no longer safely be consumed. Use -1 
 Fun | The amount your morale increases when consuming this item
 
 
-## Item type component
+## Container data
+These fields are visible when 'Container type' is set to a value, for example 'charging_storage' or 'Bottle'. The fields below are listed for each type.
+
+### Pack
 Property | Description
 ------------ | -------------
-Expiration date | Days before the item can no longer safely be consumed. Use -1 to keep it from expiring
-Fun | The amount your morale increases when consuming this item
+Container capacity size | Todo: Figure out what this is used for
+Contain item ID | Todo: Figure out what this is used for
+Empty bottle ID | Todo: Figure out what this is used for
+Use own GFX | Todo: Figure out what this is used for
+
+### Bottle
+Property | Description
+------------ | -------------
+Container capacity size | Todo: Figure out what this is used for
+Contain liquid ID | Todo: Figure out what this is used for
+Empty bottle ID | Todo: Figure out what this is used for
+Use own GFX | Todo: Figure out what this is used for
+
+### Magazine
+Property | Description
+------------ | -------------
+Container capacity size | Todo: Figure out what this is used for.
+Ammo type | Select the ammo type this container will be able to hold.
+Bullet count | The maximum amount of ammunition this container can hold.
