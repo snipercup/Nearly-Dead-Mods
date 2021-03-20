@@ -52,6 +52,11 @@ Required tool quality | The tool qualities used to disassemble this item. The pl
 Skill difficulty | What skills are required to disassemble the item
 Disassemble data | What items and how many will result from the disassembly.
 
+### Item type
+Property | Description
+------------ | -------------
+Item type | The type of item. Changing this will cause the available properties to set. For example, if you change the item type of a plastic chunk from component to weapon, you can configure damage types and amounts for it. If you change the weapon type for plank from weapon to component, it loses the weapon data that was previously configured.
+
 
 ## Item type food
 Property | Description
