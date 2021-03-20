@@ -46,7 +46,7 @@ Throwing SFX | The sound effect that plays when the item is thrown
 #### Material data
 Property | Description
 ------------ | -------------
-Set charging type | Todo: Figure out what it is used for. It is used in composite_fiber_thread
+Set charging type | This allows you to set how much this item will charge another item/furniture with. For example, a campfire will accept items that have 'charging type' set to 'flammable'.
 Can disassemble | Wether or not the item can be disassembled. When enabled, it allows you to set the requirements and results of disassembly
 Required tool quality | The tool qualities used to disassemble this item. The player needs to have tools that have these qualities in order to succesfully disaassemble the item.
 Skill difficulty | What skills are required to disassemble the item
