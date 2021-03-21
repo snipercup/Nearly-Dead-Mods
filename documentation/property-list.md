@@ -389,3 +389,31 @@ Property | Description
 Giving item | This probably allows you to set an item that the player will recieve when the object is transformed
 Required skill level | The skill level required for the transformation to be activated
 Required tool level | The tool qualities that need to be in your posession in order to activate the transformation
+
+
+
+#### Set rendering
+Property | Description
+------------ | -------------
+Rendering type | TODO
+Is passable | This probably means you can move trough the furniture. Maybe in case of a door frame?
+Pass light | Wether light passes trough this furniture
+Pass bullet | wether or not bullets will pass trough this furniture
+has light | Enabling this will make this furniture emit light in-game. You need to enable this in order to see the options below
+Light intensity | The inensity of the light TODO what values to use
+Light range (pixel) | The range of the light in pixels
+Light color | The color of the light
+
+
+
+#### Set sprite
+Property | Description
+------------ | -------------
+Durability ratio | Allows you to set levels of durability before the sprite changes. This is useful to make furniture appear damaged. You need to set sprites for each level of durablity (see below)
+Capacity ratio | This probably allows you to set capacity levels for the damage levels of this furniture TODO: Do these levels correspond to the durability ratio's?
+Sprite properties | Allows you to set the northward, southward, eastward and westward sprites for this furniture for each durablilty ratio.
+copy from | Copies the sprites from one of the other directions. This is useful for furniture that has limited orientations, like a round table
+Base | Configure the sprite that will show when the furniture is at full durability
+Durability sprites | Set the sprite for each level of durability you configured in 'Durability ratio'. 
+Has animation | If enabled, it allows you to set the frames that will make up the animation for this furniture. To see the properties below, you need to enable this first
+Set animation | If there are no frames, click add new frame. You can set a sprite per frame and the time the frame will be visible for. You can add as many frames as you want TODO: Will only the base durability be animated? What about the other damage ratios?
