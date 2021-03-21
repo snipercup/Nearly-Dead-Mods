@@ -152,7 +152,7 @@ Position | How much the sprite is shown off-center. For a weapon, you want it to
 X | The horizontal position. 0 means center. A negative value moves it to the left. A positive value moves it to the right.
 Y | The vertical position. 0 means center. A negative value moves it up. A positive value moves it down.
 Use frame animation | Allows you to set extra frames for an animation in-game
-Manual frame | TOOD
+Manual frame | TODO
 Add frame | Allows you to select a sprite that will act as a frame for this animation
 
 
