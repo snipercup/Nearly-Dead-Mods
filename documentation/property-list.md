@@ -284,3 +284,86 @@ Amount | The amount of the material required to craft this recipe
 #### Consuming condition
 TODO. I think this allows you to set the required level of stamina, health etc. for making this recipe. 
 
+
+
+
+## Furniture
+Furniture can be recognized by having the type set to object. Type is visible in the JSON. In the modding tool you can see (Object) next to the ID in the JSON entry list of the file you selected.
+
+#### General
+Property | Description
+------------ | -------------
+Object name | The name as it appears in-game.
+ID | An identifier for this object. Don't use spaces. Has to be unique for the type of entity (for example, no two tools can be identified as 'hammer' at the same time, but you can have one 'hammer' tool and one 'hammer' recipe)
+
+#### Parcour data
+Property | Description
+------------ | -------------
+Can parcour | Wether or not the player can vault over this object
+Select UI icon | Allows you to set an icon for the UI that resembles the parcour action when you are standing close to the furniture
+Parcour text | This is probably shown when the action is selected or executed
+Animation call ID | Probably a reference to an animation
+Speed multiflier | Changes the movementspeed of the character performing the parcour. 0.5 is half speed
+
+
+#### Other
+Property | Description
+------------ | -------------
+Capacity size | The capacity of this furniture. If you set this number to more then 0 you get additional options (see below) TODO what does this number reprisent? Liters? Big metal cabinet has 120 for reference
+Search icon | Allows you to set the icon that appears when you are close enough to search it. This field is only visible if 'capacity size' is greater then 0.
+Search text | The text that appears when you perform the search action. This field is only visible if 'capacity size' is greater then 0.
+Max durability | This number represents the damage the furniture can sustain before being destroyed. Big metal cabinet has 1000 for reference.
+Armor type | The type of armor this furniture has. This derermines the resistence to certain types of damage.
+Show armor points | Shows the actual resistence values of the selected armor type
+Size | How many tiles of space this furniture takes up. A chair takes up 1 by 1 but a big metal cabinet takes up 2 by 1
+Set interaction | Allows you to set how the player can interact with this furniture. Not required for search or parcour actions.
+Interaction object | Shows the action that has been selected for this object. You can add a new action by pressing 'Add new action'
+Default interaction | The interaction that the game defaults to when multiple actions are possible. For example, the default action for bed is sleep, but you can also select disassemble.
+Has tool function | If enabled, you can set the tool qualities for this furniture. 
+Wreckage ID | The ID of the object that appears when you demolish the furniture in-game
+Demolishing GFX | The special effect when the furniture is demolished
+
+
+
+#### Dissassemble data
+Property | Description
+------------ | -------------
+Can disassemble | Wether or not the furniture can be disassembled. Enabling this shows the options below
+Disassembling data | Shows various options for disassembling the furniture
+Select icon | The UI icon that represents the disassembly action for this furniture
+Disassemble text | The text that appears in the UI in-game
+Result item | Allows you to set a list of the items and the amounts that result from disassembling the furniture. A random amount of items will appear based on the min and max values.
+Required skill level | The skills required to disassemble the furniture TODO figure out what max skill level means
+Required tool level | The tool quality levels required to disassemble this furniture. TODO figure out what max quality level means
+Time (min) | The time in minutes required to disassemble this furniture
+
+
+
+#### Destruction remain items
+Property | Description
+------------ | -------------
+Remaining item | A list of items that will remain when the furniture is destroyed. A random amount will be selected somewhere between the min and max values specified.
+
+
+#### Resource storage
+Property | Description
+------------ | -------------
+Charging type id | The ID of the type of charges it can hold
+Default storage | The amount of charges it spawns with
+Max storage | The maximum amount of charges it can hold
+Delta per hour | TODO figure out what this means
+Can import manually | This probably means you can feed charges by hand
+Can export manually | This probably means you can remove charges by hand
+
+
+
+#### Activating effect
+This allows you to transform the furniture into something else. This is useful for deploying/folding or arming furniture. You first need to set the target type and then press change effect type
+
+Property | Description
+------------ | -------------
+Change effect type | Allows you to set the properties of the selected target type
+Transform object | The furniture this object transforms into.
+Activating icon | The UI icon that represents the activation action in-game
+Activating text | The text that appears when the activating action is selected
+Target type | The type of activation you want to apply to this furniture. Each type offers different options. Press 'change effect type' each time you make a selection.
