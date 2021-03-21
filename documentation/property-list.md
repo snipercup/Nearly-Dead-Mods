@@ -64,10 +64,36 @@ Is liquid | Wether or not this item is liquid. If enabled, the item can no longe
 
 
 ## Item type food
+
+#### General
 Property | Description
 ------------ | -------------
 Expiration date | Days before the item can no longer safely be consumed. Use -1 to keep it from expiring
 Fun | The amount your morale increases when consuming this item
+Consume icon | The UI icon that represents the consume action in-game
+Consume text | The text that will appear when the consume action is selected in-game
+Consuming time | The time in minutes it take to consume this item
+Have by-product | When enabled, allows you to set the item that will spawn when this item is consumed. Probably used for wrappers/peels.
+Item ID | Select the ID of the item that will appear as by-product. Only visible if 'Have by-product' is enabled.
+Item count | The amount of items that will appear as a by-product. Only visible if 'Have by-product' is enabled.
+
+
+#### Consume effect
+Allows you to set the effect of consuming this item like hunger and thirst but also allows mutation.
+
+Property | Description
+------------ | -------------
+Condition ID | The ID of the condition to be affected
+Magnitude | How much effect this food item has on the selected condition
+Add consume effect | Allows you to add a new consume effect.
+
+
+#### Flavor
+This is probably used to affect mood, or maybe this comes into play when the character has a preference for sertain flavors?
+
+Property | Description
+------------ | -------------
+Flavor data | Select the flavors that apply to this food item.
 
 
 ## Item type weapon
