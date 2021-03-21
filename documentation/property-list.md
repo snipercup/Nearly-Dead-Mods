@@ -282,7 +282,7 @@ Amount | The amount of the material required to craft this recipe
 
 
 #### Consuming condition
-TODO. I think this allows you to set the required level of stamina, health etc. for making this recipe. 
+When producing items, you can set the condition value of stamina, HP, etc. to be consumed. 
 
 
 
