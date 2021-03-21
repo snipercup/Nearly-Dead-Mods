@@ -157,6 +157,22 @@ Add frame | Allows you to select a sprite that will act as a frame for this anim
 
 
 
+#### GFX data
+Allows you to set special effects when using this weapon.
+
+Property | Description
+------------ | -------------
+Call action type | Shows the name of the call ID you added previously at 'Add new call ID' (see below)
+Action clip | You can set a custom name here (if an input field is not available, click 'add gfx' first)
+GFX ID | The ID of the special effect
+Distance | TODO maybe the distance it travels?
+GFX Scale | X: The horizontal scale. Y: The vertical scale
+Hit GFX | The special effect shown when the enemy is hit
+Add GFX | Adds a new special effect to the call action type you are currently working in
+Duplicate GFX | Duplicates the special effect to a new line
+Remove GFX | Removes the special effect line
+Add new call ID | Lets you set a new call ID TODO no idea if these ID's are defined somewhere or you can make something up.
+
 
 ## Container data
 These fields are visible when 'Container type' is set to a value, for example 'charging_storage' or 'Bottle'. The fields below are listed for each type.
