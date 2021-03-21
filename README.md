@@ -2,7 +2,7 @@
 Mods for the game Nearly Dead. The alpha was released december 31, 2020. Looking forward to modding it.
 
 ## Documentation:
-[Property list](https://github.com/snipercup/Nearly-Dead-Mods/blob/master/property-list.md)
+See [documentation](https://github.com/snipercup/Nearly-Dead-Mods/tree/master/documentation)
 
 ## Plans for mods:
 - Item addition mods
