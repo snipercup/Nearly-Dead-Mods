@@ -367,3 +367,25 @@ Transform object | The furniture this object transforms into.
 Activating icon | The UI icon that represents the activation action in-game
 Activating text | The text that appears when the activating action is selected
 Target type | The type of activation you want to apply to this furniture. Each type offers different options. Press 'change effect type' each time you make a selection.
+
+*For object_transform only*
+Property | Description
+------------ | -------------
+Required resources | Sets the required resources for the transform action
+Spending resource ID | Sets the ID of the resource that has to be spent in order to transform the furniture
+Spend amount | How much of the resource is required to perform the transform action
+Sound effect | The sound effect that plays when the transform is occurring
+
+*For object_transform_automatic only*
+Property | Description
+------------ | -------------
+Can activate manually | If enabled, the transform can be triggered manually. If disabled, only the configured trigger will activate the transormation (see below)
+Trigger charging type ID | What type of charge will be used to determine if it triggers
+Trigger type | Select between full_charging_type and lack_of_charging_type. Selecting the first one will trigger the furniture transform when it's fully charged. Selecting the second one will trigger the transform when all charges are consumed.
+
+*For object_transform_with_function only*
+Property | Description
+------------ | -------------
+Giving item | This probably allows you to set an item that the player will recieve when the object is transformed
+Required skill level | The skill level required for the transformation to be activated
+Required tool level | The tool qualities that need to be in your posession in order to activate the transformation
