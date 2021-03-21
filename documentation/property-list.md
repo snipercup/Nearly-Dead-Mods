@@ -417,3 +417,37 @@ Base | Configure the sprite that will show when the furniture is at full durabil
 Durability sprites | Set the sprite for each level of durability you configured in 'Durability ratio'. 
 Has animation | If enabled, it allows you to set the frames that will make up the animation for this furniture. To see the properties below, you need to enable this first
 Set animation | If there are no frames, click add new frame. You can set a sprite per frame and the time the frame will be visible for. You can add as many frames as you want TODO: Will only the base durability be animated? What about the other damage ratios?
+
+
+
+
+
+#### Set collider
+Property | Description
+------------ | -------------
+Pivot | A preview of the collision box for each of the north, east, south and west directions. You can control this with the pivot x (see below)
+pivot x | Allows you to align the furniture with the collision box. A smaller number will move the sprite to the left. A bigger number moves the sprite to the right
+
+
+
+#### Set local position
+This is probably used for furniture that the player can mount or sit on, like a bed. This allows you to configure the position of the player sprite on the furniture when mounted/sat on
+
+Property | Description
+------------ | -------------
+New local position | Select the local position you want to add and click 'Add local position'
+Add local position | Adds the local position for the position selected in 'new local positoin'
+Direction | For each direction, the position and rotation can be configured (see below)
+X | The horizontal offset of the player sprite in relation to the sprite of the furniture. Making this bigger will move the player sprite to the right
+Y | The vertical offset of the player sprite in relation to the sprite of the furniture. Making this bigger will move the player sprite downward
+
+
+
+
+
+
+#### Set sound effect
+Property | Description
+------------ | -------------
+Hit sound | Select the sound effect that plays when the furniture is hit
+Destruction sound | select the sound effect that plays when the furniture is destroyed
