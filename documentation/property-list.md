@@ -61,6 +61,7 @@ Item type | The type of item. Changing this will cause the available properties 
 Property | Description
 ------------ | -------------
 Is liquid | Wether or not this item is liquid. If enabled, the item can no longer be held in your hands but can be stored in container that can contain liquids.
+Set liquid data | Select the ID of the liquid that applies to this item
 
 
 ## Item type food
