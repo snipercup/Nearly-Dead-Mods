@@ -529,7 +529,7 @@ Base body mutation | Here you will tell the game what your body is made of. You 
 Set mutation group | You can select mutation groups for your creature here. On the left side are the mutations that will apply to your character. These groups probably contain multiple variants of the same mutation and the game selects one of them. So for example, human_mouth may contain multiple sprites for a human mouth.
 Collider radius | This sets the radius for the collider. The collider is the blue circle on the preview. It tells the game where the creatrure will collide with other objects in-game.
 Collider pos | This sets the position for the collider. Decreasing X moves the collider left. Increasing X will move the collider right. Decreasing Y moves the collider up. Increasing Y will move the collider down. The collider is the blue circle on the preview. It tells the game where the creatrure will collide with other objects in-game.
-Shade heigt | Sets how high the shadow is projected under the creature
+Shade height | Sets how high the shadow is projected under the creature
 Shade size | Sets how big the shadow is below the creature
 
 
