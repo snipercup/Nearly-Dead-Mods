@@ -505,3 +505,29 @@ Trace highlighted | Put an image here that represent the tracks while they are h
 Hit GFX | The special effect that appears when the creature takes a hit. If you click it, it is removed from the hit GFX list (you can have multiple)
 Hit splatter liquid | The liquid that appears when the creature is hit. This is probably the stuff that will splatter onto the ground.
 Add hit GFX | You can add an additional hit GFX with this button. Not sure if they show up simultaniously in-game or if they are shuffled.
+
+
+
+
+
+#### Animator
+Property | Description
+------------ | -------------
+Animation controller | This ties in with what you selected at 'Bone type'. An animation controller animates the bones. The sprites will be projected on top of the bones. Make sure that the animation controller is the same as the 'Bone type'. 
+
+
+
+#### Mutation
+This section not only changes the appearance of the creature, but also the stats, although indirectly. You select 'mutations'. For a human, a 'mutation' might be a human arm, or a bionic arm. Each variant has it's own properties like health and appearence. Don't think you're mutating your creature with these mutations, your creature IS the mutations.
+
+Property | Description
+------------ | -------------
+Select status | This only changes the preview image, nothing else
+Add mutation | You can add mutations to your creature with these buttons. Some of these mutations not only change the properties, but also the appearance. Currently, you can't see the creature's properties directly. You need to look at the mutations you put on your creature and look at the stats there.
+Mutation list | The mutations show up in this vertical list. You can click them to remove them.
+Base body mutation | Here you will tell the game what your body is made of. You already defined your body structure in 'bone type', so you can only select the parts of that type here. These mutations are defined somewhere else in the JSON and have their own stats.
+Set mutation group | You can select mutation groups for your creature here. On the left side are the mutations that will apply to your character. These groups probably contain multiple variants of the same mutation and the game selects one of them. So for example, human_mouth may contain multiple sprites for a human mouth.
+Collider radius | This sets the radius for the collider. The collider is the blue circle on the preview. It tells the game where the creatrure will collide with other objects in-game.
+Collider pos | This sets the position for the collider. Decreasing X moves the collider left. Increasing X will move the collider right. Decreasing Y moves the collider up. Increasing Y will move the collider down. The collider is the blue circle on the preview. It tells the game where the creatrure will collide with other objects in-game.
+Shade heigt | Sets how high the shadow is projected under the creature
+Shade size | Sets how big the shadow is below the creature
