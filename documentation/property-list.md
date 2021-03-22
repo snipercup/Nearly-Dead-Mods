@@ -478,3 +478,30 @@ Property | Description
 ------------ | -------------
 Hit sound | Select the sound effect that plays when the furniture is hit
 Destruction sound | select the sound effect that plays when the furniture is destroyed
+
+
+## Creature
+
+
+
+#### General
+Property | Description
+------------ | -------------
+Name | The name of the creature
+ID | Something to identify this creature. Don't use spaces
+Select bone type | This will determine what animations will work with this creature. 'Bone' refers to the bones in the animation skeleton on top of which the sprites will be projected. This has nothing to do with what's inside the character's flesh.
+Is playable | Turning this on probably allows you to select this as a race in the character creation menu
+Faction | This button has no actual label, but it's shown below 'is playable' and it probably refers to faction.
+
+
+
+#### Preview image and trace
+Property | Description
+------------ | -------------
+Preview image | No idea what function this has other then to get a picture of what this creature looks like. You can enter an image from the assets tree. It's not required.
+Trace | Put an image here that represent the tracks this creature leaves behind (frootprints)
+Trace selected | Put an image here that represent the tracks while they are selected
+Trace highlighted | Put an image here that represent the tracks while they are highlighted
+Hit GFX | The special effect that appears when the creature takes a hit. If you click it, it is removed from the hit GFX list (you can have multiple)
+Hit splatter liquid | The liquid that appears when the creature is hit. This is probably the stuff that will splatter onto the ground.
+Add hit GFX | You can add an additional hit GFX with this button. Not sure if they show up simultaniously in-game or if they are shuffled.
