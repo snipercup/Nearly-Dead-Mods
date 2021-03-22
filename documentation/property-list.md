@@ -531,3 +531,24 @@ Collider radius | This sets the radius for the collider. The collider is the blu
 Collider pos | This sets the position for the collider. Decreasing X moves the collider left. Increasing X will move the collider right. Decreasing Y moves the collider up. Increasing Y will move the collider down. The collider is the blue circle on the preview. It tells the game where the creatrure will collide with other objects in-game.
 Shade heigt | Sets how high the shadow is projected under the creature
 Shade size | Sets how big the shadow is below the creature
+
+
+
+#### Item table
+This determines what you can loot from your creature, although you can select only item groups, not items. You can select item groups from the list on the right. Once you click a group, it moves to the left. Use the 'filter word' to filter the list on the right. Your creature will now carry items from that group. Look at the item group section for more about item groups.
+
+
+#### Base stat
+Property | Description
+------------ | -------------
+Default race value | This is probably the max/default health value. TODO figure out why you can add more then one. Does this have something to do with the character creation menu?
+Race value | This is probably some additinal health value you can set and add a sub-race? it also notes that this can change, so it can probably increase or decrease based on certain effects. The default race value propbably can't change if only the sub race value can change.
+Stamina spending while running (hour) | The amuont of stamina spent per hour while running
+Sight range | How far you can see. Probably in number of tiles
+Sight angle | How wide your field of view is, in degrees. Don't enter more then 360
+Attack range | The unarmed melee attack range? TODO figure this out
+Move speed | The speed at which you walk. Probably tiles per second
+Moving type | Wether the creature can walk, run or both
+Rotation speed | The speed at which you turn around. Is this degrees/second? TODO figure this out
+Set stat | Enter a number per stat for this creature. Not sure how this is affected by mutations
+Set skills | The default skill level for this creature.
