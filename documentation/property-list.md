@@ -552,3 +552,86 @@ Moving type | Wether the creature can walk, run or both
 Rotation speed | The speed at which you turn around. Is this degrees/second? TODO figure this out
 Set stat | Enter a number per stat for this creature. Not sure how this is affected by mutations
 Set skills | The default skill level for this creature.
+
+
+
+## Mutation
+
+
+
+#### General
+Property | Description
+------------ | -------------
+Mutation Name | The name of the mutation
+ID | Something to identify this mutation. Don't use spaces
+Description | An optional description for this mutation. Not sure if it shows up in-game
+Required race value | Probably the number of mutations of a certain race you need to have in order to gain this mutation? Like, you would get fur and claws befor you would get a snout and tail. You can add a list of required races and their values
+Exclusive group | This probably enables you to make sure the mutation can only be gained if the creature gets a mutation from the selected group
+Mutation priority | This probably has to do with rendering. TODO is a high priority needed to render on top? Or a low priority?
+Rendering exclusive group | TODO: Figure this out
+
+
+
+#### Mutation effect
+Property | Description
+------------ | -------------
+Mod condition stat | Select a stat that the mutation will affect, like health or stamina
+Max | The amount of max health is added to the creature that gets this mutation. TODO can this value be negative?
+Delta per hour (120 per day) | TODO: Figure this out
+Effect type | Allows you to select an effect that this mutation has your creature. It may be an effect on a stat, skill, moreale and more
+Add new effect | Adds the effect you selected at 'effect type'. You can add multiple effects.
+
+
+
+#### Disassembling data
+This is probably used when you butcher a corpse. You need to set the disassemble (butcher) data for each mutation.
+
+Property | Description
+------------ | -------------
+Disassemble type | Sets the type of disassembly can be performed on this mutation (probably the corpse of the creature that carries this mutation). Choose Batch, batch_individual or individual
+Disassembling data  | Make a list of items that result from disassembling the creature that carries this mutation
+Result item | Select the ID of the item that will be returned when the creature is butchered
+Min/max | The minimum and maximum amount of the selected item that will be returned when buchering. The game will select a random amount between these values.
+Add disassembled item | Adds a new item to the list for you to configure
+Required skill level | Allows you to set a list of skills required to perform disassembly on this mutation
+Required tool level | Allows you to set a list of required tool levels to butcher this mutation
+
+
+
+#### Parent category
+Property | Description
+------------ | -------------
+Category | I think you select the bone_type here but maybe there is a category that this mutation should belong to?
+Body part | Select the body part that this mutation applies to. You can only select parts of the 'category' you selected above
+Can wear | Wether or not you can put clothes on this body part after aquiring this mutation
+Can wield | Wether or not you can wield weapons after this body part aquired this mutation
+Can walk | Wether or not this mutation allows walking
+Body type | TODO No idea what effect this has in-game
+
+
+
+#### Base color preset ID
+This has something to do with appearance TODO figure this out
+
+
+
+#### Mutation Sprite
+A sprite is not required for a mutation. What you will see with different creatures is that the body parts are defined as mutation without sprite, and the skin is defined as a mutation with many sprites making up the entire body. Not sure what the logic behind this is but it probably has to do something with animation.
+
+Property | Description
+------------ | -------------
+Preview | The preview of all the sprites that you have applied to this mutation (if any).
+Sprite/pivot toggle | Allows you to see/hide the sprites you have selected for this mutation (if any)
+Female/male front/back | Allows you to switch between the female and male front/back view. You need to define sprites for each view if you plan to add any sprites at all
+Add sprite | Adds a new sprite to the list at 'select sprite'
+Remove sprite | Removes the selected sprite from the 'select sprite' list
+Select sprite | Allows you to select the sprite you want to modify or delete
+Previous/next | Cycle trough the list of sprites
+Sprite selection | Allows you to select a sprite from the assets. If you have an external sprite somewhere on your harddrive, you need to add it to the assets first
+Select layer | The layer on which the sprite will appear. This allows you to layer sprites on top of eachother so the arm behind the body actually appears behind the body
+Sprite name | An arbitrary sprite name. You are not required to change this, it is merely for your own convenience
+Priority | Probably has something to do with the situation where there are multple sprites on the same layer? Allows you to set what sprite gets priority
+Synchronize color preset | TODO what relation does this has with 'Base color preset ID'? 
+Position | The position of the selected sprite on the preview (and in-game). You should probably enable the pivot guides next to the preview to help position things.
+Apply this setting to other stance | If you are working on the back view, this will probably copy the settings over to the front view and vica verse. 
+Apply both side settings to other gender | If you are working on the male sprites, this will probably copy over the front and back sprites for this gender over to the female gender and vice verse.
