@@ -667,7 +667,6 @@ Property | Description
 ------------ | -------------
 ID | Something to identify this body part. Don't use spaces
 Name | The name of the body part
-Has expression | 
 
 
 #### Expression
