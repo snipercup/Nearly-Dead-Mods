@@ -635,3 +635,22 @@ Synchronize color preset | TODO what relation does this has with 'Base color pre
 Position | The position of the selected sprite on the preview (and in-game). You should probably enable the pivot guides next to the preview to help position things.
 Apply this setting to other stance | If you are working on the back view, this will probably copy the settings over to the front view and vica verse. 
 Apply both side settings to other gender | If you are working on the male sprites, this will probably copy over the front and back sprites for this gender over to the female gender and vice verse.
+
+
+
+
+
+
+## Bone
+This type doesn't have a form in the ND_Modding_Tool yet so if you really wanted to make or modify a bone you would have to manually edit the JSON file. An example of a JSON file with type bone is bone_dog.json in /assets/resources. While the type is called bone, it actually describes the entire skeleton for a type of creature. The bone is used to create animations and also to layer the sprites on top of the bones.
+
+
+#### General
+Property | Description
+------------ | -------------
+Bone type | Probably an arbitrary string to indicate the type of bone. For bone_dog it says: 'dog'
+Anaimaor | TODO: No idea what this is. Maybe it has something to do with animation? Maybe remove later
+Front layer | The names of the available layers for the front view of the bone. This describes not only the body parts, but also the layers that stack on top of the face for example (eyes, nose, maw, ears, horn)
+Back layer | The names of the available layers for the back view of the bone. This describes not only the body parts, but also the layers that stack on top of the face for example (eyes, nose, maw, ears, horn)
+Pivots | This describes where the body parts pivot. It takes the torso or body as the central points and then describes a list of body parts and the point at which they pivot. For example, the upper arm pivots on the torso (shoulder) and the lower arm pivots on the upper arm (elbow). It describes the body parts in a parent/child relationship. Each part contains the properties 'Name', 'Is_joint', 'Local position', 'Local rotation', 'Child' and tag
+Body_parts | This contains fixed properties called 'Torso', 'head', 'arm_a', 'arm_b', 'leg_a', 'leg_b' and 'shade'. Each property contains an arbitrary string that probably points to the pivots you described under 'pivots'.
