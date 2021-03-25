@@ -654,3 +654,57 @@ Front layer | The names of the available layers for the front view of the bone. 
 Back layer | The names of the available layers for the back view of the bone. This describes not only the body parts, but also the layers that stack on top of the face for example (eyes, nose, maw, ears, horn)
 Pivots | This describes where the body parts pivot. It takes the torso or body as the central points and then describes a list of body parts and the point at which they pivot. For example, the upper arm pivots on the torso (shoulder) and the lower arm pivots on the upper arm (elbow). It describes the body parts in a parent/child relationship. Each part contains the properties 'Name', 'Is_joint', 'Local position', 'Local rotation', 'Child' and tag
 Body_parts | This contains fixed properties called 'Torso', 'head', 'arm_a', 'arm_b', 'leg_a', 'leg_b' and 'shade'. Each property contains an arbitrary string that probably points to the pivots you described under 'pivots'.
+
+
+
+
+## Body part
+
+
+
+#### General
+Property | Description
+------------ | -------------
+ID | Something to identify this body part. Don't use spaces
+Name | The name of the body part
+Has expression | 
+
+
+#### Expression
+Property | Description
+------------ | -------------
+Has expression | Allows you to define expressions to make one part have multiple expressions, like the mouth/maw or eye
+Add expression | Creates a new input field where you can type the name of the expression
+Select expression | Allows you to select an expression
+Remove selected expression | Removes the selected expressoin
+
+
+
+#### Body part type
+Property | Description
+------------ | -------------
+Body part type | Select what type of body part this is.
+Root body part | The body part this is connected to. If you can't see the part you need, you should go down and select the bone type first
+
+
+
+#### Can get hurt
+Property | Description
+------------ | -------------
+Can get hurt | Allows the body part to get hurt. This is typically enabled for the larger body parts, not the nose for example
+Hitted size | TODO this says something about the size of the hitbox, but is this number in pixels?
+Hitted damage modifier | The modifier for the damage this part takes. 1 means full damage, 0.75 means 75% of the damage, 1.25 means 125% of the damage
+Can lose limb | Wether or not the body part can be torn off
+Can cause losing limb damage type | Select the damage type that can cause the limb to break off (amputated). Only visible if 'can lose limb' is enabled. Can select multiple types
+Add damage type | Allows you to add a damage type to 'Can cause losing limb damage type'. Only visible if 'can lose limb' is enabled.
+
+
+
+
+#### Other
+Property | Description
+------------ | -------------
+Bone type | Select what type of bone this body part is. This field doesn't have a label, it's just a selection box. 
+Wield type | Wether it can wield a main weapon or a sub weapon
+Icon sprite | TODO figure this out
+Pressed icon sprite | TODO figure this out
