@@ -1,15 +1,19 @@
-# Nearly-Dead-Mods
-Mods for the game Nearly Dead. The alpha was released december 31, 2020. Looking forward to modding it.
+# snipercups misc items
+Some miscellaneous items added to the game. 
 
-## Documentation:
-See [documentation](https://github.com/snipercup/Nearly-Dead-Mods/tree/master/documentation)
+## Installation
+- Go to [this page](https://github.com/snipercup/Nearly-Dead-Mods) and click the green button on the top-right and click download zip-file.
+- Extract the zip file
+- Put everything inside the **snipercupsmiscitemsmod** folder (except this readme.md file) into the **NearlyDeadGame/Nearly_Dead_Data/Resources** folder. Override files when asked to.
 
-See also [Nearly Dead wiki](https://nearly-dead.fandom.com/wiki/Nearly_Dead_Wiki)
+## Features
+All items will spawn in-game in some place.
+These are the items that currently excist in the mod:
 
-## Plans for mods:
-- Item addition mods
-- Location addition mods
-
-## Community:
-- Steam: https://steamcommunity.com/app/1268900 (You can find the discord and kickstarter link on the store page)
-- Reddit: https://www.reddit.com/r/NearlyDead/
+Name | Item | Recipe | Construction | Weapon
+------------ | ------------- | ------------- | ------------- | -------------
+Multi use transfer pump | X |  | |
+Ceramic bowl | X |  | |
+Decorative bowl | X |  | |
+Fork | X |  |  | X
+Tripod | X |  | X |
