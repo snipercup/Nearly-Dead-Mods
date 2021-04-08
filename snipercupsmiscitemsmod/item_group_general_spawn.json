@@ -1,0 +1,3000 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "item_group",
+      "id": "house_fridge",
+      "name": "House fridge",
+      "items": [
+        {
+          "id": "potato",
+          "number": 30
+        },
+        {
+          "id": "corn",
+          "number": 15
+        },
+        {
+          "id": "meat_chunk",
+          "number": 20
+        },
+        {
+          "id": "cheese",
+          "number": 8
+        },
+        {
+          "id": "loaf_bread",
+          "number": 15
+        },
+        {
+          "id": "canned_cola",
+          "number": 20
+        },
+        {
+          "id": "bottled_cola",
+          "number": 5
+        },
+        {
+          "id": "milk_jug",
+          "number": 7
+        },
+        {
+          "id": "canned_lime_soda",
+          "number": 15
+        },
+        {
+          "id": "bottled_lime_soda",
+          "number": 5
+        },
+        {
+          "id": "bottled_tea",
+          "number": 20
+        },
+        {
+          "id": "bottled_mineral_water",
+          "number": 30
+        },
+        {
+          "id": "strawberry_jam_jar",
+          "number": 8
+        },
+        {
+          "id": "sausage",
+          "number": 5
+        },
+        {
+          "id": "smoked_meat",
+          "number": 5
+        },
+        {
+          "id": "chicken_egg",
+          "number": 10
+        },
+        {
+          "id": "tomato",
+          "number": 8
+        },
+        {
+          "id": "apple",
+          "number": 8
+        },
+        {
+          "id": "onion",
+          "number": 8
+        },
+        {
+          "id": "mushroom",
+          "number": 8
+        },
+        {
+          "id": "cabbage",
+          "number": 8
+        },
+        {
+          "id": "cucumber",
+          "number": 8
+        },
+        {
+          "id": "broccoli",
+          "number": 8
+        },
+        {
+          "id": "fish_fillet",
+          "number": 12
+        },
+        {
+          "id": "butter",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "underwear",
+      "name": "Underwear",
+      "items": [
+        {
+          "id": "boxer_shorts",
+          "number": 100
+        },
+        {
+          "id": "bra",
+          "number": 100
+        },
+        {
+          "id": "briefs",
+          "number": 100
+        },
+        {
+          "id": "sports_bra",
+          "number": 100
+        },
+        {
+          "id": "strapless_bra",
+          "number": 100
+        },
+        {
+          "id": "panties",
+          "number": 100
+        },
+        {
+          "id": "long_undershirt",
+          "number": 100
+        },
+        {
+          "id": "undershirt",
+          "number": 100
+        },
+        {
+          "id": "tanktop",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_wardrobe_bag",
+      "name": "House wardrobe bag",
+      "items": [
+        {
+          "id": "backpack",
+          "number": 100
+        },
+        {
+          "id": "daypack",
+          "number": 100
+        },
+        {
+          "id": "duffle_bag",
+          "number": 100
+        },
+        {
+          "id": "hiking_backpack",
+          "number": 100
+        },
+        {
+          "id": "runner_pack",
+          "number": 100
+        },
+        {
+          "id": "sling_pack",
+          "number": 100
+        },
+        {
+          "id": "tool_belt",
+          "number": 100
+        },
+        {
+          "id": "waist_pack",
+          "number": 100
+        },
+        {
+          "id": "side_pack",
+          "number": 100
+        },
+        {
+          "id": "school_bag",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_wardrobe_garments",
+      "name": "House wardrobe garments",
+      "items": [
+        {
+          "id": "cargo_pants",
+          "number": 100
+        },
+        {
+          "id": "casual_skirt",
+          "number": 100
+        },
+        {
+          "id": "denim_shorts",
+          "number": 150
+        },
+        {
+          "id": "denim_skirt",
+          "number": 100
+        },
+        {
+          "id": "dress",
+          "number": 100
+        },
+        {
+          "id": "dress_shirt_black",
+          "number": 100
+        },
+        {
+          "id": "dress_shirt_white",
+          "number": 100
+        },
+        {
+          "id": "great_coat",
+          "number": 100
+        },
+        {
+          "id": "hiking_jacket",
+          "number": 100
+        },
+        {
+          "id": "hoodie",
+          "number": 100
+        },
+        {
+          "id": "jeans",
+          "number": 500
+        },
+        {
+          "id": "knee_jeans",
+          "number": 100
+        },
+        {
+          "id": "light_jacket",
+          "number": 100
+        },
+        {
+          "id": "miniskirt",
+          "number": 100
+        },
+        {
+          "id": "padded_jacket",
+          "number": 100
+        },
+        {
+          "id": "padded_vest",
+          "number": 100
+        },
+        {
+          "id": "short_skirt",
+          "number": 100
+        },
+        {
+          "id": "short_tartan_skirt",
+          "number": 50
+        },
+        {
+          "id": "suit_jacket",
+          "number": 100
+        },
+        {
+          "id": "suit_vest",
+          "number": 100
+        },
+        {
+          "id": "tailored_skirt",
+          "number": 100
+        },
+        {
+          "id": "tartan_skirt",
+          "number": 50
+        },
+        {
+          "id": "tartan_miniskirt",
+          "number": 50
+        },
+        {
+          "id": "trench_coat",
+          "number": 100
+        },
+        {
+          "id": "turtleneck_sweater",
+          "number": 100
+        },
+        {
+          "id": "wool_pants",
+          "number": 300
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_wardrobe_misc",
+      "name": "House wardrobe misc",
+      "items": [
+        {
+          "id": "baseball_cap",
+          "number": 100
+        },
+        {
+          "id": "beanie",
+          "number": 100
+        },
+        {
+          "id": "dress_belt",
+          "number": 100
+        },
+        {
+          "id": "headband",
+          "number": 100
+        },
+        {
+          "id": "long_scarf",
+          "number": 100
+        },
+        {
+          "id": "scarf",
+          "number": 100
+        },
+        {
+          "id": "silk_tie",
+          "number": 100
+        },
+        {
+          "id": "towel",
+          "number": 200
+        },
+        {
+          "id": "candy_bar",
+          "number": 70
+        },
+        {
+          "id": "arm_warmer",
+          "number": 50
+        },
+        {
+          "id": "cotton_gloves",
+          "number": 100
+        },
+        {
+          "id": "fingerless_gloves",
+          "number": 40
+        },
+        {
+          "id": "wool_gloves",
+          "number": 100
+        },
+        {
+          "id": "mittens",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_tool",
+      "name": "House tool",
+      "items": [
+        {
+          "id": "crowbar",
+          "number": 100
+        },
+        {
+          "id": "duct_tape",
+          "number": 100
+        },
+        {
+          "id": "filter_mask",
+          "number": 100
+        },
+        {
+          "id": "flashlight",
+          "number": 100
+        },
+        {
+          "id": "hacksaw",
+          "number": 100
+        },
+        {
+          "id": "hammer",
+          "number": 100
+        },
+        {
+          "id": "hatchet",
+          "number": 100
+        },
+        {
+          "id": "machete",
+          "number": 5
+        },
+        {
+          "id": "matches",
+          "number": 100
+        },
+        {
+          "id": "metal_pipe",
+          "number": 200
+        },
+        {
+          "id": "red_brick",
+          "number": 200
+        },
+        {
+          "id": "refined_stone",
+          "number": 100
+        },
+        {
+          "id": "rope",
+          "number": 200
+        },
+        {
+          "id": "shovel",
+          "number": 100
+        },
+        {
+          "id": "sledgehammer",
+          "number": 5
+        },
+        {
+          "id": "steel_wire",
+          "number": 200
+        },
+        {
+          "id": "wire_nail",
+          "number": 200
+        },
+        {
+          "id": "wood_bat",
+          "number": 100
+        },
+        {
+          "id": "wood_plank",
+          "number": 300
+        },
+        {
+          "id": "wooden_stick",
+          "number": 300
+        },
+        {
+          "id": "woodsaw",
+          "number": 100
+        },
+        {
+          "id": "folding_knife",
+          "number": 100
+        },
+        {
+          "id": "machete_broken",
+          "number": 50
+        },
+        {
+          "id": "sledgehammer_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_kitchen_tool",
+      "name": "House kitchen tool",
+      "items": [
+        {
+          "id": "frying_pan",
+          "number": 100
+        },
+        {
+          "id": "cooking_pot",
+          "number": 100
+        },
+        {
+          "id": "cooking_oil_jug",
+          "number": 100
+        },
+        {
+          "id": "linen_apron",
+          "number": 100
+        },
+        {
+          "id": "kitchen_knife",
+          "number": 100
+        },
+        {
+          "id": "wood_plank",
+          "number": 80
+        },
+        {
+          "id": "ceramicbowl",
+          "number": 100
+        },
+        {
+          "id": "fork",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_dresser_misc",
+      "name": "House dresser misc",
+      "items": [
+        {
+          "id": "candy_bar",
+          "number": 100
+        },
+        {
+          "id": "lighter",
+          "number": 100
+        },
+        {
+          "id": "thread",
+          "number": 100
+        },
+        {
+          "id": "towel",
+          "number": 100
+        },
+        {
+          "id": "pocket_knife",
+          "number": 100
+        },
+        {
+          "id": "eyeglasses",
+          "number": 50
+        },
+        {
+          "id": "reading_glasses",
+          "number": 40
+        },
+        {
+          "id": "round_glasses",
+          "number": 20
+        },
+        {
+          "id": "wide_glasses",
+          "number": 10
+        },
+        {
+          "id": "sunglasses",
+          "number": 40
+        },
+        {
+          "id": "stylish_sunglasses",
+          "number": 20
+        },
+        {
+          "id": "filter_mask",
+          "number": 100
+        },
+        {
+          "id": "decorativebowl",
+          "number": 80
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_dresser_socks",
+      "name": "House dresser socks",
+      "items": [
+        {
+          "id": "football_socks",
+          "number": 20
+        },
+        {
+          "id": "knee_socks",
+          "number": 100
+        },
+        {
+          "id": "pantyhose",
+          "number": 100
+        },
+        {
+          "id": "socks",
+          "number": 200
+        },
+        {
+          "id": "stockings",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_stash_food",
+      "name": "House stash food",
+      "items": [
+        {
+          "id": "chocolate_bar",
+          "number": 100
+        },
+        {
+          "id": "candy_bar",
+          "number": 100
+        },
+        {
+          "id": "meat_jerky",
+          "number": 100
+        },
+        {
+          "id": "honey_jar",
+          "number": 60
+        },
+        {
+          "id": "peanut_butter_jar",
+          "number": 60
+        },
+        {
+          "id": "canned_bean",
+          "number": 50
+        },
+        {
+          "id": "canned_sham",
+          "number": 60
+        },
+        {
+          "id": "canned_meatball",
+          "number": 50
+        },
+        {
+          "id": "canned_pet_food",
+          "number": 100
+        },
+        {
+          "id": "canned_pineapple",
+          "number": 50
+        },
+        {
+          "id": "canned_spaghetti",
+          "number": 50
+        },
+        {
+          "id": "canned_tomato_soup",
+          "number": 100
+        },
+        {
+          "id": "canned_tuna",
+          "number": 50
+        },
+        {
+          "id": "cracker_bag",
+          "number": 100
+        },
+        {
+          "id": "tortilla_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "pepper_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "potato_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "sugar",
+          "number": 200
+        },
+        {
+          "id": "salt",
+          "number": 300
+        },
+        {
+          "id": "flour",
+          "number": 200
+        },
+        {
+          "id": "rice",
+          "number": 100
+        },
+        {
+          "id": "pasta_bag",
+          "number": 150
+        },
+        {
+          "id": "corn_cereal_box",
+          "number": 100
+        },
+        {
+          "id": "cup_noodles",
+          "number": 100
+        },
+        {
+          "id": "yeast",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_shoebox",
+      "name": "Huse shoebox",
+      "items": [
+        {
+          "id": "sneakers",
+          "number": 150
+        },
+        {
+          "id": "dress_shoes",
+          "number": 100
+        },
+        {
+          "id": "leather_boots",
+          "number": 100
+        },
+        {
+          "id": "kneehigh_boots",
+          "number": 60
+        },
+        {
+          "id": "heels",
+          "number": 50
+        },
+        {
+          "id": "sandals",
+          "number": 50
+        },
+        {
+          "id": "long_sandals",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "tool_common",
+      "name": "Common tool",
+      "items": [
+        {
+          "id": "crowbar",
+          "number": 100
+        },
+        {
+          "id": "flashlight",
+          "number": 100
+        },
+        {
+          "id": "hammer",
+          "number": 100
+        },
+        {
+          "id": "shovel",
+          "number": 100
+        },
+        {
+          "id": "woodsaw",
+          "number": 100
+        },
+        {
+          "id": "flask",
+          "number": 100
+        },
+        {
+          "id": "folding_knife",
+          "number": 100
+        },
+        {
+          "id": "screwdriver",
+          "number": 100
+        },
+        {
+          "id": "pipe_wrench",
+          "number": 100
+        },
+        {
+          "id": "multiusetransferpump",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "tool_advanced",
+      "name": "Advanced tool",
+      "items": [
+        {
+          "id": "basic_chemistry_set",
+          "number": 100
+        },
+        {
+          "id": "chainsaw_off",
+          "number": 100
+        },
+        {
+          "id": "circular_saw_off",
+          "number": 100
+        },
+        {
+          "id": "fire_axe",
+          "number": 5
+        },
+        {
+          "id": "entrenching_tool_shovel",
+          "number": 100
+        },
+        {
+          "id": "hacksaw",
+          "number": 100
+        },
+        {
+          "id": "hunting_knife",
+          "number": 100
+        },
+        {
+          "id": "machete",
+          "number": 5
+        },
+        {
+          "id": "sledgehammer",
+          "number": 5
+        },
+        {
+          "id": "pickaxe",
+          "number": 100
+        },
+        {
+          "id": "carving_knife",
+          "number": 100
+        },
+        {
+          "id": "toolkit",
+          "number": 100
+        },
+        {
+          "id": "fire_axe_broken",
+          "number": 50
+        },
+        {
+          "id": "machete_broken",
+          "number": 50
+        },
+        {
+          "id": "sledgehammer_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_sewing_tool",
+      "name": "House sewing tool",
+      "items": [
+        {
+          "id": "sewing_needle",
+          "number": 50
+        },
+        {
+          "id": "sewing_kit",
+          "number": 5
+        },
+        {
+          "id": "thread",
+          "number": 100
+        },
+        {
+          "id": "scissors",
+          "number": 30
+        },
+        {
+          "id": "cloth_patch",
+          "number": 100
+        },
+        {
+          "id": "leather_patch",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_dresser_gun",
+      "name": "House dresser gun",
+      "items": [
+        {
+          "id": "9mm",
+          "number": 100
+        },
+        {
+          "id": "revolver",
+          "number": 5
+        },
+        {
+          "id": "revolver_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_storage_components",
+      "name": "House storage components",
+      "items": [
+        {
+          "id": "steel_wire",
+          "number": 100
+        },
+        {
+          "id": "wire_nail",
+          "number": 100
+        },
+        {
+          "id": "mechanical_components",
+          "number": 60
+        },
+        {
+          "id": "electrical_components",
+          "number": 20
+        },
+        {
+          "id": "scrap_metal",
+          "number": 100
+        },
+        {
+          "id": "metal_chunk",
+          "number": 50
+        },
+        {
+          "id": "rubber_parts",
+          "number": 20
+        },
+        {
+          "id": "red_brick",
+          "number": 100
+        },
+        {
+          "id": "refined_stone",
+          "number": 100
+        },
+        {
+          "id": "wood_plank",
+          "number": 100
+        },
+        {
+          "id": "paper",
+          "number": 100
+        },
+        {
+          "id": "duct_tape",
+          "number": 100
+        },
+        {
+          "id": "cable",
+          "number": 50
+        },
+        {
+          "id": "rope",
+          "number": 100
+        },
+        {
+          "id": "plastic_gasoline_can",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_storage_tool",
+      "name": "House storage tool",
+      "items": [
+        {
+          "id": "screwdriver",
+          "number": 100
+        },
+        {
+          "id": "pipe_wrench",
+          "number": 50
+        },
+        {
+          "id": "scissors",
+          "number": 100
+        },
+        {
+          "id": "matches",
+          "number": 100
+        },
+        {
+          "id": "flask",
+          "number": 60
+        },
+        {
+          "id": "woodsaw",
+          "number": 100
+        },
+        {
+          "id": "hammer",
+          "number": 100
+        },
+        {
+          "id": "flashlight",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_storage_gear",
+      "name": "House storage gear",
+      "items": [
+        {
+          "id": "wood_bat",
+          "number": 100
+        },
+        {
+          "id": "hatchet",
+          "number": 60
+        },
+        {
+          "id": "machete",
+          "number": 5
+        },
+        {
+          "id": "shovel",
+          "number": 60
+        },
+        {
+          "id": "crowbar",
+          "number": 20
+        },
+        {
+          "id": "elbow_pad",
+          "number": 30
+        },
+        {
+          "id": "knee_pad",
+          "number": 30
+        },
+        {
+          "id": "motorcycle_helmet",
+          "number": 30
+        },
+        {
+          "id": "rubber_boots",
+          "number": 40
+        },
+        {
+          "id": "sturdy_boots",
+          "number": 20
+        },
+        {
+          "id": "machete_broken",
+          "number": 50
+        },
+        {
+          "id": "tripod_folded",
+          "number": 30
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_desk_misc",
+      "name": "House desk misc",
+      "items": [
+        {
+          "id": "paper",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_bath_misc",
+      "name": "House bath misc",
+      "items": [
+        {
+          "id": "bleach_jug",
+          "number": 80
+        },
+        {
+          "id": "towel",
+          "number": 80
+        },
+        {
+          "id": "soap",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_bath_medicine",
+      "name": "House bath medicine",
+      "items": [
+        {
+          "id": "bandage",
+          "number": 100
+        },
+        {
+          "id": "towel",
+          "number": 100
+        },
+        {
+          "id": "bottled_anticeptic",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_bin_misc",
+      "name": "House bin misc",
+      "items": [
+        {
+          "id": "paper",
+          "number": 100
+        },
+        {
+          "id": "plastic_bag",
+          "number": 200
+        },
+        {
+          "id": "cardboard_box",
+          "number": 100
+        },
+        {
+          "id": "plastic_chunk",
+          "number": 30
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_bin_can",
+      "name": "House bin can",
+      "items": [
+        {
+          "id": "opened_aluminum_can",
+          "number": 150
+        },
+        {
+          "id": "opened_flat_tin_can",
+          "number": 60
+        },
+        {
+          "id": "opened_tin_can",
+          "number": 100
+        },
+        {
+          "id": "scrap_metal",
+          "number": 50
+        },
+        {
+          "id": "mechanical_components",
+          "number": 20
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_bin_recycle",
+      "name": "House bin recycle",
+      "items": [
+        {
+          "id": "plastic_bottle",
+          "number": 60
+        },
+        {
+          "id": "small_plastic_bottle",
+          "number": 100
+        },
+        {
+          "id": "plastic_jug",
+          "number": 50
+        },
+        {
+          "id": "plastic_jerrycan",
+          "number": 20
+        },
+        {
+          "id": "plastic_chunk",
+          "number": 60
+        },
+        {
+          "id": "glass_jar",
+          "number": 50
+        },
+        {
+          "id": "large_glass_jar",
+          "number": 20
+        },
+        {
+          "id": "glass_sheet",
+          "number": 20
+        },
+        {
+          "id": "trash_can_lid",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_bookcase_misc",
+      "name": "House bookcase misc",
+      "items": [
+        {
+          "id": "paper",
+          "number": 100
+        },
+        {
+          "id": "book_fitness1_weight",
+          "number": 10
+        },
+        {
+          "id": "book_marksmanship1",
+          "number": 10
+        },
+        {
+          "id": "book_medical1",
+          "number": 20
+        },
+        {
+          "id": "book_outdoor1",
+          "number": 20
+        },
+        {
+          "id": "book_tailoring1",
+          "number": 20
+        },
+        {
+          "id": "book_cooking1_baking",
+          "number": 20
+        },
+        {
+          "id": "book_crafting1",
+          "number": 10
+        },
+        {
+          "id": "book_electronics1",
+          "number": 10
+        },
+        {
+          "id": "book_engineering1",
+          "number": 10
+        },
+        {
+          "id": "book_medical2",
+          "number": 10
+        },
+        {
+          "id": "book_melee1",
+          "number": 10
+        },
+        {
+          "id": "book_outdoor2",
+          "number": 10
+        },
+        {
+          "id": "book_tailoring2",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "house_laundry",
+      "name": "House laundry",
+      "items": [
+        {
+          "id": "blanket",
+          "number": 100
+        },
+        {
+          "id": "towel",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "firewood",
+      "name": "Firewood",
+      "items": [
+        {
+          "id": "wooden_stick",
+          "number": 10
+        },
+        {
+          "id": "log",
+          "number": 20
+        },
+        {
+          "id": "coal",
+          "number": 10
+        },
+        {
+          "id": "plastic_gasoline_can",
+          "number": 4
+        },
+        {
+          "id": "firewood",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "bending_machine_snack",
+      "name": "Bending machine snack",
+      "items": [
+        {
+          "id": "cracker_bag",
+          "number": 100
+        },
+        {
+          "id": "tortilla_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "pepper_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "potato_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "chocolate_bar",
+          "number": 100
+        },
+        {
+          "id": "candy_bar",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "bending_machine_drink",
+      "name": "Bending machine drink",
+      "items": [
+        {
+          "id": "canned_cola",
+          "number": 100
+        },
+        {
+          "id": "canned_lime_soda",
+          "number": 100
+        },
+        {
+          "id": "bottled_mineral_water",
+          "number": 100
+        },
+        {
+          "id": "bottled_sports_drink",
+          "number": 50
+        },
+        {
+          "id": "bottled_tea",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "campsite_food",
+      "name": "Campsite food",
+      "items": [
+        {
+          "id": "canned_bean",
+          "number": 100
+        },
+        {
+          "id": "canned_sham",
+          "number": 80
+        },
+        {
+          "id": "canned_cola",
+          "number": 100
+        },
+        {
+          "id": "canned_lime_soda",
+          "number": 100
+        },
+        {
+          "id": "canned_pineapple",
+          "number": 100
+        },
+        {
+          "id": "canned_tuna",
+          "number": 80
+        },
+        {
+          "id": "bottled_mineral_water",
+          "number": 200
+        },
+        {
+          "id": "bottled_tea",
+          "number": 100
+        },
+        {
+          "id": "pasta_bag",
+          "number": 100
+        },
+        {
+          "id": "meat_chunk",
+          "number": 100
+        },
+        {
+          "id": "meat_jerky",
+          "number": 100
+        },
+        {
+          "id": "smoked_meat",
+          "number": 100
+        },
+        {
+          "id": "mushroom",
+          "number": 60
+        },
+        {
+          "id": "bacon",
+          "number": 100
+        },
+        {
+          "id": "cracker_bag",
+          "number": 100
+        },
+        {
+          "id": "pemmican",
+          "number": 60
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "campsite_tool",
+      "name": "Campsite tool",
+      "items": [
+        {
+          "id": "multicooker",
+          "number": 50
+        },
+        {
+          "id": "entrenching_tool_shovel",
+          "number": 80
+        },
+        {
+          "id": "sledgehammer",
+          "number": 5
+        },
+        {
+          "id": "matches",
+          "number": 5
+        },
+        {
+          "id": "lighter",
+          "number": 100
+        },
+        {
+          "id": "camping_water_filter",
+          "number": 60
+        },
+        {
+          "id": "hunting_knife",
+          "number": 60
+        },
+        {
+          "id": "pocket_knife",
+          "number": 100
+        },
+        {
+          "id": "fire_axe",
+          "number": 4
+        },
+        {
+          "id": "frying_pan",
+          "number": 100
+        },
+        {
+          "id": "hatchet",
+          "number": 100
+        },
+        {
+          "id": "machete",
+          "number": 80
+        },
+        {
+          "id": "fire_axe_broken",
+          "number": 40
+        },
+        {
+          "id": "machete_broken",
+          "number": 50
+        },
+        {
+          "id": "sledgehammer_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "campsite_construction",
+      "name": "Campsite construction",
+      "items": [
+        {
+          "id": "wooden_stick",
+          "number": 100
+        },
+        {
+          "id": "blanket",
+          "number": 100
+        },
+        {
+          "id": "leather_patch",
+          "number": 100
+        },
+        {
+          "id": "rope",
+          "number": 100
+        },
+        {
+          "id": "stone",
+          "number": 100
+        },
+        {
+          "id": "refined_stone",
+          "number": 100
+        },
+        {
+          "id": "scrap_metal",
+          "number": 100
+        },
+        {
+          "id": "log",
+          "number": 100
+        },
+        {
+          "id": "tarp",
+          "number": 100
+        },
+        {
+          "id": "plastic_gasoline_can",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "trash_general",
+      "name": "Trash general",
+      "items": [
+        {
+          "id": "crumpled_tissue",
+          "number": 100
+        },
+        {
+          "id": "garbage_bag",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "mil_cabinet_wear",
+      "name": "Military cabinet wear",
+      "items": [
+        {
+          "id": "combat_boots",
+          "number": 100
+        },
+        {
+          "id": "army_jacket_tan",
+          "number": 100
+        },
+        {
+          "id": "army_pants_tan",
+          "number": 100
+        },
+        {
+          "id": "beret",
+          "number": 100
+        },
+        {
+          "id": "army_jacket_multicam",
+          "number": 100
+        },
+        {
+          "id": "army_pants_multicam",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "mil_cabinet_gear",
+      "name": "Military cabinet gear",
+      "items": [
+        {
+          "id": "tactical_vest_multicam",
+          "number": 60
+        },
+        {
+          "id": "tactical_vest_tan",
+          "number": 60
+        },
+        {
+          "id": "army_helmet",
+          "number": 100
+        },
+        {
+          "id": "tactical_gloves",
+          "number": 60
+        },
+        {
+          "id": "ballistic_mask",
+          "number": 50
+        },
+        {
+          "id": "elbow_pad",
+          "number": 50
+        },
+        {
+          "id": "knee_pad",
+          "number": 50
+        },
+        {
+          "id": "entrenching_tool_shovel",
+          "number": 50
+        },
+        {
+          "id": "stim_shot",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "mil_cabinet_book",
+      "name": "Military cabinet book",
+      "items": [
+        {
+          "id": "paper",
+          "number": 300
+        },
+        {
+          "id": "book_engineering2",
+          "number": 100
+        },
+        {
+          "id": "book_engineering3",
+          "number": 100
+        },
+        {
+          "id": "book_construction2",
+          "number": 100
+        },
+        {
+          "id": "book_fitness1_weight",
+          "number": 100
+        },
+        {
+          "id": "book_marksmanship1",
+          "number": 100
+        },
+        {
+          "id": "book_marksmanship2",
+          "number": 100
+        },
+        {
+          "id": "book_marksmanship3",
+          "number": 100
+        },
+        {
+          "id": "book_medical1",
+          "number": 100
+        },
+        {
+          "id": "book_melee1",
+          "number": 100
+        },
+        {
+          "id": "book_melee2",
+          "number": 100
+        },
+        {
+          "id": "book_melee3",
+          "number": 100
+        },
+        {
+          "id": "book_outdoor1",
+          "number": 100
+        },
+        {
+          "id": "book_outdoor2",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "mil_storage_ammo",
+      "name": "Military storage ammo",
+      "items": [
+        {
+          "id": "556_fmj",
+          "number": 100
+        },
+        {
+          "id": "556_tracer",
+          "number": 20
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "mil_storage_firearm",
+      "name": "Military storage firearm",
+      "items": [
+        {
+          "id": "556_extended_magazine",
+          "number": 20
+        },
+        {
+          "id": "556_drum_magazine",
+          "number": 30
+        },
+        {
+          "id": "556_ammobox",
+          "number": 30
+        },
+        {
+          "id": "standard_magazine",
+          "number": 100
+        },
+        {
+          "id": "standard_compact_magazine",
+          "number": 50
+        },
+        {
+          "id": "carbine",
+          "number": 10
+        },
+        {
+          "id": "carbine_broken",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "police_storage_armory",
+      "name": "Police storage armory",
+      "items": [
+        {
+          "id": "pump_shotgun",
+          "number": 5
+        },
+        {
+          "id": "revolver",
+          "number": 5
+        },
+        {
+          "id": "buckshot",
+          "number": 100
+        },
+        {
+          "id": "9mm",
+          "number": 100
+        },
+        {
+          "id": "revolver_broken",
+          "number": 40
+        },
+        {
+          "id": "pump_shotgun_broken",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "police_storage_gear",
+      "name": "Police storage gear",
+      "items": [
+        {
+          "id": "shield",
+          "number": 100
+        },
+        {
+          "id": "flashlight",
+          "number": 100
+        },
+        {
+          "id": "riot_helmet",
+          "number": 100
+        },
+        {
+          "id": "police_vest",
+          "number": 100
+        },
+        {
+          "id": "police_leg_guard",
+          "number": 70
+        },
+        {
+          "id": "police_arm_guard",
+          "number": 70
+        },
+        {
+          "id": "police_belt",
+          "number": 70
+        },
+        {
+          "id": "sturdy_boots",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "firestation_wear",
+      "name": "Firestation wear",
+      "items": [
+        {
+          "id": "firefighter_jacket",
+          "number": 100
+        },
+        {
+          "id": "firefighter_pants",
+          "number": 100
+        },
+        {
+          "id": "hazmat_boots",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "firestation_gear",
+      "name": "Firestation gear",
+      "items": [
+        {
+          "id": "hazmat_suit",
+          "number": 50
+        },
+        {
+          "id": "hazmat_suit_mask",
+          "number": 50
+        },
+        {
+          "id": "firefighter_helmet",
+          "number": 100
+        },
+        {
+          "id": "firefighter_mask",
+          "number": 100
+        },
+        {
+          "id": "fire_axe",
+          "number": 5
+        },
+        {
+          "id": "crowbar",
+          "number": 70
+        },
+        {
+          "id": "sledgehammer",
+          "number": 5
+        },
+        {
+          "id": "fire_axe_broken",
+          "number": 50
+        },
+        {
+          "id": "sledgehammer_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "gunstore_pistol",
+      "name": "Gunstore pistol",
+      "items": [
+        {
+          "id": "revolver",
+          "number": 5
+        },
+        {
+          "id": "9mm",
+          "number": 100
+        },
+        {
+          "id": "revolver_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "gunstore_rifle_hunting",
+      "name": "Gunstore rifle hunting",
+      "items": [
+        {
+          "id": "hunting_rifle",
+          "number": 5
+        },
+        {
+          "id": "762_fmj",
+          "number": 100
+        },
+        {
+          "id": "standard_compact_magazine",
+          "number": 50
+        },
+        {
+          "id": "hunting_rifle_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "gunstore_rifle",
+      "name": "Gunstore rifle",
+      "items": [
+        {
+          "id": "classic_rifle",
+          "number": 4
+        },
+        {
+          "id": "classic_rifle_magazine",
+          "number": 40
+        },
+        {
+          "id": "classic_rifle_magazine_extend",
+          "number": 40
+        },
+        {
+          "id": "762_fmj",
+          "number": 100
+        },
+        {
+          "id": "classic_rifle_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "gunstore_book",
+      "name": "Gunstore book",
+      "items": [
+        {
+          "id": "paper",
+          "number": 140
+        },
+        {
+          "id": "book_marksmanship2",
+          "number": 100
+        },
+        {
+          "id": "book_marksmanship3",
+          "number": 100
+        },
+        {
+          "id": "book_marksmanship4",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "grocery_fresh",
+      "name": "Grocery fresh",
+      "items": [
+        {
+          "id": "cheese",
+          "number": 10
+        },
+        {
+          "id": "loaf_bread",
+          "number": 10
+        },
+        {
+          "id": "milk_jug",
+          "number": 10
+        },
+        {
+          "id": "sausage",
+          "number": 10
+        },
+        {
+          "id": "chicken_egg",
+          "number": 10
+        },
+        {
+          "id": "apple",
+          "number": 10
+        },
+        {
+          "id": "bacon",
+          "number": 10
+        },
+        {
+          "id": "burrito",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "grocery_misc",
+      "name": "Grocery misc",
+      "items": [
+        {
+          "id": "chocolate_bar",
+          "number": 100
+        },
+        {
+          "id": "candy_bar",
+          "number": 100
+        },
+        {
+          "id": "meat_jerky",
+          "number": 100
+        },
+        {
+          "id": "honey_jar",
+          "number": 60
+        },
+        {
+          "id": "peanut_butter_jar",
+          "number": 60
+        },
+        {
+          "id": "canned_bean",
+          "number": 50
+        },
+        {
+          "id": "canned_sham",
+          "number": 60
+        },
+        {
+          "id": "canned_meatball",
+          "number": 50
+        },
+        {
+          "id": "canned_pet_food",
+          "number": 100
+        },
+        {
+          "id": "canned_pineapple",
+          "number": 50
+        },
+        {
+          "id": "canned_spaghetti",
+          "number": 50
+        },
+        {
+          "id": "canned_tomato_soup",
+          "number": 100
+        },
+        {
+          "id": "canned_tuna",
+          "number": 50
+        },
+        {
+          "id": "cracker_bag",
+          "number": 100
+        },
+        {
+          "id": "tortilla_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "pepper_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "potato_chips_bag",
+          "number": 100
+        },
+        {
+          "id": "pasta_bag",
+          "number": 150
+        },
+        {
+          "id": "corn_cereal_box",
+          "number": 100
+        },
+        {
+          "id": "cup_noodles",
+          "number": 100
+        },
+        {
+          "id": "yeast",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "grocery_drink",
+      "name": "Grocery drink",
+      "items": [
+        {
+          "id": "canned_cola",
+          "number": 100
+        },
+        {
+          "id": "canned_lime_soda",
+          "number": 100
+        },
+        {
+          "id": "bottled_cola",
+          "number": 100
+        },
+        {
+          "id": "bottled_lime_soda",
+          "number": 100
+        },
+        {
+          "id": "bottled_mineral_water",
+          "number": 100
+        },
+        {
+          "id": "bottled_sports_drink",
+          "number": 100
+        },
+        {
+          "id": "bottled_tea",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "grocery_med",
+      "name": "Grocery med",
+      "items": [
+        {
+          "id": "bandage",
+          "number": 200
+        },
+        {
+          "id": "bottled_anticeptic",
+          "number": 100
+        },
+        {
+          "id": "ointment",
+          "number": 100
+        },
+        {
+          "id": "bottled_cough_syrup",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "sand_container",
+      "name": "Sand container",
+      "items": [
+        {
+          "id": "shovel",
+          "number": 50
+        },
+        {
+          "id": "wood_chips",
+          "number": 100
+        },
+        {
+          "id": "tarp",
+          "number": 50
+        },
+        {
+          "id": "fertilizer",
+          "number": 30
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "restaurant_tool",
+      "name": "Restaurant tool",
+      "items": [
+        {
+          "id": "cooking_pot",
+          "number": 100
+        },
+        {
+          "id": "multicooker",
+          "number": 100
+        },
+        {
+          "id": "frying_pan",
+          "number": 100
+        },
+        {
+          "id": "kitchen_knife",
+          "number": 100
+        },
+        {
+          "id": "wood_plank",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "hardwarestore_tool",
+      "name": "Hardwarestore tool",
+      "items": [
+        {
+          "id": "screwdriver",
+          "number": 100
+        },
+        {
+          "id": "pipe_wrench",
+          "number": 50
+        },
+        {
+          "id": "scissors",
+          "number": 100
+        },
+        {
+          "id": "woodsaw",
+          "number": 100
+        },
+        {
+          "id": "hammer",
+          "number": 100
+        },
+        {
+          "id": "flashlight",
+          "number": 60
+        },
+        {
+          "id": "hacksaw",
+          "number": 50
+        },
+        {
+          "id": "sledgehammer",
+          "number": 5
+        },
+        {
+          "id": "carving_knife",
+          "number": 50
+        },
+        {
+          "id": "toolkit",
+          "number": 50
+        },
+        {
+          "id": "sledgehammer_broken",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "hardwarestore_components",
+      "name": "Hardwarestore components",
+      "items": [
+        {
+          "id": "steel_wire",
+          "number": 100
+        },
+        {
+          "id": "wire_nail",
+          "number": 100
+        },
+        {
+          "id": "mechanical_components",
+          "number": 100
+        },
+        {
+          "id": "scrap_metal",
+          "number": 50
+        },
+        {
+          "id": "metal_chunk",
+          "number": 100
+        },
+        {
+          "id": "rubber_parts",
+          "number": 50
+        },
+        {
+          "id": "wood_plank",
+          "number": 100
+        },
+        {
+          "id": "duct_tape",
+          "number": 100
+        },
+        {
+          "id": "cable",
+          "number": 100
+        },
+        {
+          "id": "rope",
+          "number": 100
+        },
+        {
+          "id": "carbon_fiber_thread",
+          "number": 50
+        },
+        {
+          "id": "plastic_gasoline_can",
+          "number": 30
+        },
+        {
+          "id": "fertilizer",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "hardwarestore_book",
+      "name": "Hardwarestore book",
+      "items": [
+        {
+          "id": "paper",
+          "number": 300
+        },
+        {
+          "id": "book_construction2",
+          "number": 100
+        },
+        {
+          "id": "book_construction3",
+          "number": 100
+        },
+        {
+          "id": "book_crafting2",
+          "number": 100
+        },
+        {
+          "id": "book_crafting3",
+          "number": 100
+        },
+        {
+          "id": "book_electronics1",
+          "number": 100
+        },
+        {
+          "id": "book_electronics2",
+          "number": 100
+        },
+        {
+          "id": "book_engineering2",
+          "number": 100
+        },
+        {
+          "id": "book_engineering3",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "clothingstore_rack",
+      "name": "Clothingstore rack",
+      "items": [
+        {
+          "id": "long_sandals",
+          "number": 100
+        },
+        {
+          "id": "sandals",
+          "number": 100
+        },
+        {
+          "id": "heels",
+          "number": 100
+        },
+        {
+          "id": "sneakers",
+          "number": 100
+        },
+        {
+          "id": "kneehigh_boots",
+          "number": 100
+        },
+        {
+          "id": "leather_boots",
+          "number": 100
+        },
+        {
+          "id": "rubber_boots",
+          "number": 100
+        },
+        {
+          "id": "cotton_gloves",
+          "number": 100
+        },
+        {
+          "id": "fingerless_gloves",
+          "number": 100
+        },
+        {
+          "id": "wool_gloves",
+          "number": 100
+        },
+        {
+          "id": "dress_shoes",
+          "number": 100
+        },
+        {
+          "id": "baseball_cap",
+          "number": 100
+        },
+        {
+          "id": "fedora",
+          "number": 100
+        },
+        {
+          "id": "beanie",
+          "number": 100
+        },
+        {
+          "id": "headband",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "clothingstore_display",
+      "name": "Clothingstore display",
+      "items": [
+        {
+          "id": "reading_glasses",
+          "number": 100
+        },
+        {
+          "id": "round_glasses",
+          "number": 100
+        },
+        {
+          "id": "stylish_sunglasses",
+          "number": 100
+        },
+        {
+          "id": "sunglasses",
+          "number": 100
+        },
+        {
+          "id": "wide_glasses",
+          "number": 100
+        },
+        {
+          "id": "gold_bar",
+          "number": 30
+        },
+        {
+          "id": "silver_bar",
+          "number": 30
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "clinic_tool",
+      "name": "Clinic tool",
+      "items": [
+        {
+          "id": "blank_syringe",
+          "number": 100
+        },
+        {
+          "id": "scissors",
+          "number": 50
+        },
+        {
+          "id": "suture_needle",
+          "number": 50
+        },
+        {
+          "id": "basic_chemistry_set",
+          "number": 20
+        },
+        {
+          "id": "chemical_resistant_gloves",
+          "number": 20
+        },
+        {
+          "id": "rubber_gloves",
+          "number": 50
+        },
+        {
+          "id": "composite_fiber_thread",
+          "number": 100
+        },
+        {
+          "id": "cloth_patch",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "clinic_med",
+      "name": "Clinic med",
+      "items": [
+        {
+          "id": "bandage",
+          "number": 100
+        },
+        {
+          "id": "splint",
+          "number": 100
+        },
+        {
+          "id": "hemostatic_powder",
+          "number": 100
+        },
+        {
+          "id": "painkiller",
+          "number": 100
+        },
+        {
+          "id": "sleeping_pill",
+          "number": 100
+        },
+        {
+          "id": "ointment",
+          "number": 100
+        },
+        {
+          "id": "healing_shot",
+          "number": 100
+        },
+        {
+          "id": "antibiotics",
+          "number": 100
+        },
+        {
+          "id": "antidote_shot",
+          "number": 100
+        },
+        {
+          "id": "antirad_shot",
+          "number": 100
+        },
+        {
+          "id": "bottled_anticeptic",
+          "number": 100
+        },
+        {
+          "id": "anaesthetic_shot",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "clinic_book",
+      "name": "Clinic book",
+      "items": [
+        {
+          "id": "paper",
+          "number": 200
+        },
+        {
+          "id": "book_fitness1_weight",
+          "number": 100
+        },
+        {
+          "id": "book_medical2",
+          "number": 100
+        },
+        {
+          "id": "book_medical3",
+          "number": 100
+        },
+        {
+          "id": "book_medical4",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "field_general_loot",
+      "name": "Field general loot",
+      "items": [
+        {
+          "id": "stone",
+          "number": 100
+        },
+        {
+          "id": "dirt",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "forest_general_loot",
+      "name": "Forest general loot",
+      "items": [
+        {
+          "id": "stone",
+          "number": 100
+        },
+        {
+          "id": "dirt",
+          "number": 20
+        },
+        {
+          "id": "log",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "metal_scraps_components",
+      "name": "Metal scraps components",
+      "items": [
+        {
+          "id": "steel_wire",
+          "number": 30
+        },
+        {
+          "id": "wire_nail",
+          "number": 100
+        },
+        {
+          "id": "mechanical_components",
+          "number": 60
+        },
+        {
+          "id": "scrap_metal",
+          "number": 100
+        },
+        {
+          "id": "metal_chunk",
+          "number": 10
+        },
+        {
+          "id": "carbon_fiber",
+          "number": 20
+        },
+        {
+          "id": "metal_pipe",
+          "number": 50
+        },
+        {
+          "id": "circuit_components",
+          "number": 10
+        },
+        {
+          "id": "electrical_components",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "spruce_contents",
+      "name": "Spruce contents",
+      "items": [
+        {
+          "id": "branch",
+          "number": 40
+        },
+        {
+          "id": "tree_bark",
+          "number": 30
+        },
+        {
+          "id": "pine_leaves",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "bookstore_misc",
+      "name": "Bookstore misc",
+      "items": [
+        {
+          "id": "paper",
+          "number": 400
+        },
+        {
+          "id": "book_construction1",
+          "number": 100
+        },
+        {
+          "id": "book_cooking1_baking",
+          "number": 100
+        },
+        {
+          "id": "book_crafting1",
+          "number": 100
+        },
+        {
+          "id": "book_crafting2",
+          "number": 100
+        },
+        {
+          "id": "book_electronics1",
+          "number": 100
+        },
+        {
+          "id": "book_engineering1",
+          "number": 100
+        },
+        {
+          "id": "book_fitness1_weight",
+          "number": 100
+        },
+        {
+          "id": "book_medical1",
+          "number": 100
+        },
+        {
+          "id": "book_melee1",
+          "number": 100
+        },
+        {
+          "id": "book_melee2",
+          "number": 100
+        },
+        {
+          "id": "book_outdoor1",
+          "number": 100
+        },
+        {
+          "id": "book_tailoring1",
+          "number": 100
+        },
+        {
+          "id": "book_tailoring2",
+          "number": 100
+        },
+        {
+          "id": "book_chemistry1",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "bookstore_advanced",
+      "name": "Bookstore advanced",
+      "items": [
+        {
+          "id": "paper",
+          "number": 400
+        },
+        {
+          "id": "book_construction2",
+          "number": 100
+        },
+        {
+          "id": "book_construction3",
+          "number": 100
+        },
+        {
+          "id": "book_crafting3",
+          "number": 100
+        },
+        {
+          "id": "book_medical2",
+          "number": 100
+        },
+        {
+          "id": "book_melee3",
+          "number": 100
+        },
+        {
+          "id": "book_melee4",
+          "number": 100
+        },
+        {
+          "id": "book_outdoor2",
+          "number": 100
+        },
+        {
+          "id": "book_outdoor3",
+          "number": 100
+        },
+        {
+          "id": "book_tailoring3",
+          "number": 100
+        },
+        {
+          "id": "book_tailoring4",
+          "number": 100
+        },
+        {
+          "id": "book_chemistry2",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "orchard_crate",
+      "name": "Orchard crate",
+      "items": [
+        {
+          "id": "fertilizer",
+          "number": 50
+        },
+        {
+          "id": "tarp",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "gym_tool",
+      "name": "Gym tool",
+      "items": [
+        {
+          "id": "metal_pipe",
+          "number": 100
+        },
+        {
+          "id": "dumbbell",
+          "number": 100
+        },
+        {
+          "id": "barbell",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "gym_book",
+      "name": "Gym book",
+      "items": [
+        {
+          "id": "book_fitness1_weight",
+          "number": 100
+        },
+        {
+          "id": "book_fitness2_weight",
+          "number": 100
+        },
+        {
+          "id": "book_melee1",
+          "number": 100
+        },
+        {
+          "id": "book_melee2",
+          "number": 100
+        },
+        {
+          "id": "paper",
+          "number": 200
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "blood_under",
+      "name": "Blood under",
+      "items": [
+        {
+          "id": "blood",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "warehouse_misc",
+      "name": "Warehouse misc",
+      "items": [
+        {
+          "id": "rope",
+          "number": 30
+        },
+        {
+          "id": "steel_chain",
+          "number": 30
+        },
+        {
+          "id": "duct_tape",
+          "number": 15
+        },
+        {
+          "id": "firewood",
+          "number": 5
+        },
+        {
+          "id": "paper",
+          "number": 70
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "warehouse_tool",
+      "name": "Warehouse tool",
+      "items": [
+        {
+          "id": "toolkit",
+          "number": 5
+        },
+        {
+          "id": "toolbox",
+          "number": 2
+        },
+        {
+          "id": "hammer",
+          "number": 30
+        },
+        {
+          "id": "sledgehammer",
+          "number": 10
+        },
+        {
+          "id": "sledgehammer_broken",
+          "number": 25
+        },
+        {
+          "id": "lighter",
+          "number": 70
+        },
+        {
+          "id": "cooking_pot",
+          "number": 40
+        },
+        {
+          "id": "frying_pan",
+          "number": 40
+        },
+        {
+          "id": "shovel",
+          "number": 30
+        },
+        {
+          "id": "woodsaw",
+          "number": 30
+        },
+        {
+          "id": "crowbar",
+          "number": 25
+        },
+        {
+          "id": "towel",
+          "number": 70
+        },
+        {
+          "id": "pipe_wrench",
+          "number": 25
+        },
+        {
+          "id": "screwdriver",
+          "number": 30
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "warehouse_precious_metal",
+      "name": "Warehouse precious metal",
+      "items": [
+        {
+          "id": "silver_bar",
+          "number": 2
+        },
+        {
+          "id": "gold_bar",
+          "number": 2
+        },
+        {
+          "id": "wood_chips",
+          "number": 96
+        }
+      ]
+    }
+  ]
+}

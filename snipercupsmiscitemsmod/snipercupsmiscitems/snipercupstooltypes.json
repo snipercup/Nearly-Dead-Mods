@@ -1,0 +1,75 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "id": "cutting",
+      "type": "tool_type",
+      "name": "Cutting"
+    },
+    {
+      "id": "hammering",
+      "type": "tool_type",
+      "name": "Hammering"
+    },
+    {
+      "id": "pumping",
+      "type": "tool_type",
+      "name": "Pumping"
+    },
+    {
+      "id": "cooking",
+      "type": "tool_type",
+      "name": "Cooking"
+    },
+    {
+      "id": "chemical_Making",
+      "type": "tool_type",
+      "name": "Chemical_Making"
+    },
+    {
+      "id": "digging",
+      "type": "tool_type",
+      "name": "Digging"
+    },
+    {
+      "id": "prying",
+      "type": "tool_type",
+      "name": "Prying"
+    },
+    {
+      "id": "assembling",
+      "type": "tool_type",
+      "name": "Assembling"
+    },
+    {
+      "id": "butchering",
+      "type": "tool_type",
+      "name": "Butchering"
+    },
+    {
+      "id": "fire",
+      "type": "tool_type",
+      "name": "Fire"
+    },
+    {
+      "id": "tree_cutting",
+      "type": "tool_type",
+      "name": "Tree cutting"
+    },
+    {
+      "id": "welding",
+      "type": "tool_type",
+      "name": "Welding"
+    },
+    {
+      "id": "sewing",
+      "type": "tool_type",
+      "name": "Sewing"
+    },
+    {
+      "id": "workbench",
+      "type": "tool_type",
+      "name": "Workbench"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "multiusetransferpump",
+      "name": "Multi use transfer pump",
+      "item sprite icon id": "multiyusetransferpump_icon",
+      "description": "A multi-purpose transfer pump. (no actual functionality right now)",
+      "weight": 1.0,
+      "price": 7.0,
+      "size": 1.5,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": true,
+      "function_of_tool_qualities": [
+        [
+          "pumping",
+          1
+        ]
+      ],
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "ceramicbowl",
+      "name": "Ceramic Bowl",
+      "item sprite icon id": "ceramicbowlicon",
+      "description": "A beautiful ceramic bowl",
+      "weight": 0.5,
+      "price": 5.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "decorativebowl",
+      "name": "Decorative bowl",
+      "item sprite icon id": "decorativebowl_icon",
+      "description": "A foreign decorative bowl",
+      "weight": 0.5,
+      "price": 15.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "tripod_folded",
+      "name": "Folded tripod",
+      "item sprite icon id": "tripodfolded",
+      "description": "Deploy it trough the construction menu!",
+      "weight": 2.0,
+      "price": 15.0,
+      "size": 4.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    }
+  ]
+}

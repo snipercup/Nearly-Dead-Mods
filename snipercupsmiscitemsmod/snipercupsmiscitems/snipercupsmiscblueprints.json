@@ -1,0 +1,31 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "blueprint",
+      "id": "sandbag_barricade",
+      "name": "Deployed tripod",
+      "description": "This description will be added soon.",
+      "blueprint_result": "deployed_tripod",
+      "building_effect": "",
+      "time": 0.0,
+      "animation_call_id": "craft",
+      "autolearn": true,
+      "autolearn_skill_type": "crafting",
+      "autolearn_skill_level": 1,
+      "blueprint_category": "Object",
+      "object_category": "barricade",
+      "tool_quilality": [],
+      "skill_difficulty_list": [],
+      "recipe_component": [
+        {
+          "id": "tripod_folded",
+          "number": 1
+        }
+      ],
+      "recipe_component_dont_consume": [],
+      "recipe_consume_conditions": [],
+      "constructable_floor_list": []
+    }
+  ]
+}

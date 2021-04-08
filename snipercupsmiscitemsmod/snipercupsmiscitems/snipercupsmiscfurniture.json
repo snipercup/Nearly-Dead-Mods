@@ -1,0 +1,111 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "object",
+      "id": "deployed_tripod",
+      "name": "Tripod",
+      "armor_type": {
+        "id": "cheap_metal"
+      },
+      "can_parkour": false,
+      "wreckage_id": "",
+      "object_resources": [],
+      "destruction_gfx": {
+        "id": "demolish_furniture"
+      },
+      "can_disassemble": true,
+      "disassemble_icon": "UI_action_disassemble",
+      "disassemble_text": "Disassemble",
+      "destruction_remaining_items": [
+        {
+          "id": "scrap_metal",
+          "number1": 12,
+          "number2": 20
+        }
+      ],
+      "disassembled_items": [
+        {
+          "id": "tripod_folded",
+          "number1": 1,
+          "number2": 1
+        }
+      ],
+      "disassemble_required_skills": [],
+      "disassemble_required_tools": [],
+      "disassemble_time": 0.0,
+      "inventory_actions": [],
+      "default_inventory_action": "Disassemble",
+      "render_type": "general",
+      "capacity_size": 0,
+      "max_durability": 600,
+      "size_x": 1,
+      "size_z": 1,
+      "is_passable": true,
+      "pass_light": true,
+      "pass_bullet": true,
+      "can_be_mounted": false,
+      "can_mount": false,
+      "has_light": false,
+      "light_intensity": 0.0,
+      "light_range": 0.0,
+      "light_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "north_pivot": [
+        -1.0,
+        0.0
+      ],
+      "south_pivot": [
+        -1.0,
+        0.0
+      ],
+      "east_pivot": [
+        -1.0,
+        0.0
+      ],
+      "west_pivot": [
+        -1.0,
+        0.0
+      ],
+      "base_north_sprite": {
+        "sprite_name": "tripoddeployed",
+        "damaged_sprite_name": [],
+        "capacity_sprite_name": [],
+        "has_frame_animation": false
+      },
+      "base_south_sprite": {
+        "sprite_name": "tripoddeployed",
+        "damaged_sprite_name": [],
+        "capacity_sprite_name": [],
+        "has_frame_animation": false
+      },
+      "base_west_sprite": {
+        "sprite_name": "tripoddeployed",
+        "damaged_sprite_name": [],
+        "capacity_sprite_name": [],
+        "has_frame_animation": false
+      },
+      "base_east_sprite": {
+        "sprite_name": "tripoddeployed",
+        "damaged_sprite_name": [],
+        "capacity_sprite_name": [],
+        "has_frame_animation": false
+      },
+      "activating_effect_list": [],
+      "overlap_effect_list": [],
+      "has_tool": false,
+      "hull_ratio_list": [
+        100.0
+      ],
+      "capacity_ratio_list": [
+        100.0
+      ],
+      "local_pos_list": [],
+      "hit_sound": "wooden_hit",
+      "destruction_sound": "metal_hit"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "item",
+      "item_type": "Weapon",
+      "id": "fork",
+      "name": "fork",
+      "item sprite icon id": "forkicon2",
+      "description": "A fork to eat like royalty",
+      "weight": 0.5,
+      "price": 1.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [
+          [
+            "assembling",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [
+          {
+            "id": "crafting",
+            "number": 2
+          }
+        ],
+        "disassemble_item_list": [
+          {
+            "id": "metal_chunk",
+            "number": 1
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "bone_id": "humanoid",
+      "part list": [],
+      "base rotation": 65.0,
+      "color_preset_id": "none",
+      "male front sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "fork_wield_front2",
+          "layer_names": "handA_gearB",
+          "position": [
+            -9.0,
+            -11.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -7.0,
+            -8.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "male back sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "fork_wield_back2",
+          "layer_names": "handA_gearB",
+          "position": [
+            -9.5,
+            -14.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -30.0,
+            -30.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "female front sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "fork_wield_front2",
+          "layer_names": "handB_gearA",
+          "position": [
+            1.0,
+            -11.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -7.0,
+            -8.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "female back sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "fork_wield_back2",
+          "layer_names": "handB_gearA",
+          "position": [
+            -0.5,
+            -14.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -30.0,
+            -30.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "melee_weapon_data": {
+        "melee_damage": 2.0,
+        "melee_attack_speed": 0.5,
+        "melee_staggering": 0.0,
+        "melee_falling": 0.0,
+        "melee_knockback": 0.0,
+        "melee_range": 0.06,
+        "equip_type": "any",
+        "gfx_dic": [
+          {
+            "call_action_type": "thrust",
+            "gfx_list": [
+              {
+                "action_type": "thrust",
+                "gfx_id": "thrust_knife_01",
+                "distance": 0.6,
+                "gfx_scale": [
+                  1.0,
+                  1.0
+                ],
+                "hit_gfx": "hit_point_small_01"
+              }
+            ]
+          },
+          {
+            "call_action_type": "thresh",
+            "gfx_list": [
+              {
+                "action_type": "dagger_thresh",
+                "gfx_id": "slash_claw_small",
+                "distance": 0.6,
+                "gfx_scale": [
+                  1.0,
+                  1.0
+                ],
+                "hit_gfx": "hit_point_small_01"
+              }
+            ]
+          },
+          {
+            "call_action_type": "swing",
+            "gfx_list": [
+              {
+                "action_type": "swing",
+                "gfx_id": "slash_sword_01",
+                "distance": 0.5,
+                "gfx_scale": [
+                  1.0,
+                  1.0
+                ],
+                "hit_gfx": "hit_slash_small_01"
+              }
+            ]
+          }
+        ],
+        "effect_list": []
+      },
+      "is_ranged_weapon": false,
+      "item_weapon_type": "1h_melee",
+      "action_set": {
+        "available_unique_actions": [],
+        "available_action_sets": [
+          {
+            "id": "knife"
+          }
+        ],
+        "main_setting": [
+          {
+            "type": "action_set",
+            "id": {
+              "id": "knife"
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          }
+        ],
+        "sub_setting": [
+          {
+            "type": "action_set",
+            "id": {
+              "id": "knife"
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          }
+        ]
+      },
+      "aim_type": "action_only",
+      "mod slot type": "none",
+      "mod slot size": 0
+    }
+  ]
+}
