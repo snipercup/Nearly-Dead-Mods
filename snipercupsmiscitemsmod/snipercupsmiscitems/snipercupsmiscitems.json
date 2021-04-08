@@ -231,6 +231,111 @@
       "component_data": {
         "is_liquid": false
       }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "megablocks",
+      "name": "Kid's building blocks",
+      "item sprite icon id": "megablocks_icon",
+      "description": "Very colorful building blocks for kids",
+      "weight": 0.2,
+      "price": 1.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 10,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": true,
+        "tool_quilality": [
+          [
+            "cutting",
+            1
+          ]
+        ],
+        "skill_difficulty_list": [
+          {
+            "id": "crafting",
+            "number": 1
+          }
+        ],
+        "disassemble_item_list": [
+          {
+            "id": "plastic_chunk",
+            "number": 1
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "vacuum_sweeper",
+      "name": "Vacuum sweeper",
+      "item sprite icon id": "vacuumsweeper",
+      "description": "For removing dust from the floor",
+      "weight": 4.0,
+      "price": 15.0,
+      "size": 3.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": true,
+        "tool_quilality": [
+          [
+            "cutting",
+            1
+          ],
+          [
+            "prying",
+            1
+          ],
+          [
+            "assembling",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [
+          {
+            "id": "crafting",
+            "number": 1
+          },
+          {
+            "id": "electronics",
+            "number": 1
+          }
+        ],
+        "disassemble_item_list": [
+          {
+            "id": "scrap_metal",
+            "number": 2
+          },
+          {
+            "id": "plastic_chunk",
+            "number": 2
+          },
+          {
+            "id": "metal_chunk",
+            "number": 1
+          },
+          {
+            "id": "metal_pipe",
+            "number": 1
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
     }
   ]
 }

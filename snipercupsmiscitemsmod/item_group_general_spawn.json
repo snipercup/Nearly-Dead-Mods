@@ -472,6 +472,10 @@
         {
           "id": "sledgehammer_broken",
           "number": 50
+        },
+        {
+          "id": "vacuum_sweeper",
+          "number": 60
         }
       ]
     },
@@ -1091,6 +1095,10 @@
         {
           "id": "decorativepaperpuncher",
           "number": 10
+        },
+        {
+          "id": "megablocks",
+          "number": 40
         }
       ]
     },

@@ -22,3 +22,5 @@ Mixer | X |  |  |
 Spraypainter | X | | |
 Wallet | X |  |  |
 Decorative paper puncher | X |  |  |
+Vacuum sweeper | X |  |  |
+Kid's building block | X |  |  |
