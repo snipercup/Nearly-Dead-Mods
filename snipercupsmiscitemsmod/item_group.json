@@ -1,0 +1,889 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "item_group",
+      "id": "zombie_general_top",
+      "name": "Zombie general top",
+      "items": [
+        {
+          "id": "dirty_dress_shirt_black",
+          "number": 50
+        },
+        {
+          "id": "dirty_dress_shirt_white",
+          "number": 50
+        },
+        {
+          "id": "dirty_flannel_shirt",
+          "number": 100
+        },
+        {
+          "id": "dirty_tanktop",
+          "number": 100
+        },
+        {
+          "id": "dirty_undershirt",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_general_coat",
+      "name": "Zombie general coat",
+      "items": [
+        {
+          "id": "dirty_hoodie",
+          "number": 20
+        },
+        {
+          "id": "dirty_trench_coat",
+          "number": 10
+        },
+        {
+          "id": "none",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_general_pants_mal",
+      "name": "Zombie general pants (male)",
+      "items": [
+        {
+          "id": "dirty_pants",
+          "number": 100
+        },
+        {
+          "id": "dirty_wool_pants",
+          "number": 100
+        },
+        {
+          "id": "dirty_jeans",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_general_accessory",
+      "name": "Zombie general accessory",
+      "items": [
+        {
+          "id": "dirty_belt",
+          "number": 60
+        },
+        {
+          "id": "dirty_suspender",
+          "number": 30
+        },
+        {
+          "id": "none",
+          "number": 100
+        },
+        {
+          "id": "wallet",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_general_footwear",
+      "name": "Zombie general footwear",
+      "items": [
+        {
+          "id": "dirty_boots",
+          "number": 70
+        },
+        {
+          "id": "dirty_dress_shoes",
+          "number": 50
+        },
+        {
+          "id": "dirty_leather_shoes",
+          "number": 50
+        },
+        {
+          "id": "dirty_rubber_boots",
+          "number": 50
+        },
+        {
+          "id": "dirty_sneakers",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_inner",
+      "name": "Zombie suit inner",
+      "items": [
+        {
+          "id": "dirty_dress_shirt_black",
+          "number": 40
+        },
+        {
+          "id": "dirty_dress_shirt_white",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_top",
+      "name": "Zombie suit top",
+      "items": [
+        {
+          "id": "dirty_suit_jacket",
+          "number": 100
+        },
+        {
+          "id": "dirty_suit_vest",
+          "number": 60
+        },
+        {
+          "id": "none",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_coat",
+      "name": "Zombie suit coat",
+      "items": [
+        {
+          "id": "dirty_trench_coat",
+          "number": 20
+        },
+        {
+          "id": "none",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_accessory",
+      "name": "Zombie suit accessory",
+      "items": [
+        {
+          "id": "dirty_tie_black",
+          "number": 100
+        },
+        {
+          "id": "dirty_tie_white",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_belt",
+      "name": "Zombie suit belt",
+      "items": [
+        {
+          "id": "dirty_belt",
+          "number": 100
+        },
+        {
+          "id": "dirty_suspender",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_pants",
+      "name": "Zombie suit pants",
+      "items": [
+        {
+          "id": "dirty_wool_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_footwear",
+      "name": "Zombie suit footwear",
+      "items": [
+        {
+          "id": "dirty_dress_shoes",
+          "number": 100
+        },
+        {
+          "id": "dirty_leather_shoes",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_suit_skirt",
+      "name": "Zombie suit skirt",
+      "items": [
+        {
+          "id": "dirty_skirt_black",
+          "number": 100
+        },
+        {
+          "id": "wool_pants",
+          "number": 80
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_general_pants_fem",
+      "name": "Zombie general pants (female)",
+      "items": [
+        {
+          "id": "dirty_skirt_red",
+          "number": 100
+        },
+        {
+          "id": "dirty_skirt_black",
+          "number": 100
+        },
+        {
+          "id": "dirty_jeans",
+          "number": 50
+        },
+        {
+          "id": "dirty_pants",
+          "number": 50
+        },
+        {
+          "id": "dirty_wool_pants",
+          "number": 50
+        },
+        {
+          "id": "dirty_dress",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_army_top",
+      "name": "Zombie army top",
+      "items": [
+        {
+          "id": "dirty_army_jacket",
+          "number": 100
+        },
+        {
+          "id": "dirty_undershirt",
+          "number": 20
+        },
+        {
+          "id": "dirty_tanktop",
+          "number": 20
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_army_vest",
+      "name": "Zombie army vest",
+      "items": [
+        {
+          "id": "dirty_army_vest",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 20
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_army_pants",
+      "name": "Zombie army pants",
+      "items": [
+        {
+          "id": "dirty_army_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_army_footwear",
+      "name": "Zombie army footwear",
+      "items": [
+        {
+          "id": "dirty_combat_boots",
+          "number": 100
+        },
+        {
+          "id": "dirty_sturdy_boots",
+          "number": 30
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_firefighter_top",
+      "name": "Zombie firefighter top",
+      "items": [
+        {
+          "id": "dirty_firefighter_jacket",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_firefighter_pants",
+      "name": "Zombie firefighter pants",
+      "items": [
+        {
+          "id": "dirty_firefighter_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_firefighter_footwear",
+      "name": "Zombie firefighter footwear",
+      "items": [
+        {
+          "id": "dirty_hazmat_boots",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_firefighter_hat",
+      "name": "Zombie firefighter hat",
+      "items": [
+        {
+          "id": "dirty_firefighter_helmet",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_police_top",
+      "name": "Zombie police top",
+      "items": [
+        {
+          "id": "dirty_police_shirt",
+          "number": 60
+        },
+        {
+          "id": "dirty_police_short_shirt",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_police_pants",
+      "name": "Zombie police pants",
+      "items": [
+        {
+          "id": "dirty_police_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_police_footwear",
+      "name": "Zombie police footwear",
+      "items": [
+        {
+          "id": "dirty_leather_shoes",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_police_hat",
+      "name": "Zombie police hat",
+      "items": [
+        {
+          "id": "dirty_police_hat",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_police_vest",
+      "name": "Zombie police vest",
+      "items": [
+        {
+          "id": "dirty_police_vest",
+          "number": 20
+        },
+        {
+          "id": "none",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_riot_police_top",
+      "name": "Zombie riot police top",
+      "items": [
+        {
+          "id": "dirty_riot_armor_top",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_riot_police_pants",
+      "name": "Zombie riot police pants",
+      "items": [
+        {
+          "id": "dirty_riot_armor_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_riot_police_vest",
+      "name": "Zombie riot police vest",
+      "items": [
+        {
+          "id": "dirty_police_vest",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_riot_police_footwear",
+      "name": "Zombie riot police footwear",
+      "items": [
+        {
+          "id": "dirty_sturdy_boots",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_riot_police_hat",
+      "name": "Zombie riot police hat",
+      "items": [
+        {
+          "id": "dirty_riot_helmet",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_worker_top",
+      "name": "Zombie worker top",
+      "items": [
+        {
+          "id": "dirty_dress_shirt_white",
+          "number": 60
+        },
+        {
+          "id": "dirty_undershirt",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_worker_pants",
+      "name": "Zombie worker pants",
+      "items": [
+        {
+          "id": "dirty_jeans",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_worker_footwear",
+      "name": "Zombie worker footwear",
+      "items": [
+        {
+          "id": "dirty_boots",
+          "number": 100
+        },
+        {
+          "id": "dirty_combat_boots",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_worker_vest",
+      "name": "Zombie worker vest",
+      "items": [
+        {
+          "id": "dirty_safety_vest",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_worker_hat",
+      "name": "Zombie worker hat",
+      "items": [
+        {
+          "id": "dirty_hard_hat_orange",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_technician_top",
+      "name": "Zombie technician top",
+      "items": [
+        {
+          "id": "dirty_worker_top",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_technician_pants",
+      "name": "Zombie technician pants",
+      "items": [
+        {
+          "id": "dirty_worker_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_technician_vest",
+      "name": "Zombie technician vest",
+      "items": [
+        {
+          "id": "dirty_safety_vest",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 50
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_technician_footwear",
+      "name": "Zombie technician footwear",
+      "items": [
+        {
+          "id": "dirty_boots",
+          "number": 100
+        },
+        {
+          "id": "dirty_leather_shoes",
+          "number": 100
+        },
+        {
+          "id": "dirty_sneakers",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_technician_hat",
+      "name": "Zombie technician hat",
+      "items": [
+        {
+          "id": "dirty_hard_hat_white",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_technician_accessory",
+      "name": "Zombie technician accessory",
+      "items": [
+        {
+          "id": "dirty_tool_belt",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 20
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_top",
+      "name": "Zombie doctor top",
+      "items": [
+        {
+          "id": "dirty_dress_shirt_black",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_coat",
+      "name": "Zombie doctor coat",
+      "items": [
+        {
+          "id": "dirty_lab_coat",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_pants",
+      "name": "Zombie doctor pants",
+      "items": [
+        {
+          "id": "dirty_wool_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_footwear",
+      "name": "Zombie doctor footwear",
+      "items": [
+        {
+          "id": "dirty_dress_shoes",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_mask",
+      "name": "Zombie doctor mask",
+      "items": [
+        {
+          "id": "dirty_clean_suit_mask",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_hat",
+      "name": "Zombie doctor hat",
+      "items": [
+        {
+          "id": "dirty_white_fedora",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_doctor_accessory",
+      "name": "Zombie doctor accessory",
+      "items": [
+        {
+          "id": "dirty_tie_white",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_cleaner_suit",
+      "name": "Zombie cleaner suit",
+      "items": [
+        {
+          "id": "dirty_clean_suit",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_cleaner_mask",
+      "name": "Zombie cleaner mask",
+      "items": [
+        {
+          "id": "dirty_clean_suit_mask",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_hazmat_suit",
+      "name": "Zombie hazmat suit",
+      "items": [
+        {
+          "id": "dirty_hazmat_suit",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_hazmat_mask",
+      "name": "Zombie hazmat mask",
+      "items": [
+        {
+          "id": "dirty_hazmat_suit_mask",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_firefighter_mask",
+      "name": "Zombie firefighter mask",
+      "items": [
+        {
+          "id": "dirty_firefighter_mask",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 40
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_army_hat",
+      "name": "Zombie army hat",
+      "items": [
+        {
+          "id": "dirty_beret",
+          "number": 100
+        },
+        {
+          "id": "none",
+          "number": 50
+        },
+        {
+          "id": "dirty_army_helmet",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "wood_plank",
+      "name": "Wood plank",
+      "items": [
+        {
+          "id": "wood_plank",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_hat",
+      "name": "Rifle zombie hat",
+      "items": [
+        {
+          "id": "dirty_army_helmet",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_top",
+      "name": "Rifle zombie top",
+      "items": [
+        {
+          "id": "dirty_tanktop",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_pants",
+      "name": "Rifle zombie pants",
+      "items": [
+        {
+          "id": "dirty_army_pants",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_vest",
+      "name": "Rifle zombie vest",
+      "items": [
+        {
+          "id": "dirty_army_vest",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_footwear",
+      "name": "Rifle zombie footwear",
+      "items": [
+        {
+          "id": "dirty_combat_boots",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_kneepad",
+      "name": "Rifle zombie kneepad",
+      "items": [
+        {
+          "id": "dirty_knee_pad",
+          "number": 100
+        }
+      ]
+    },
+    {
+      "type": "item_group",
+      "id": "zombie_rifle_mask",
+      "name": "Rifle zombie mask",
+      "items": [
+        {
+          "id": "dirty_army_mask",
+          "number": 100
+        }
+      ]
+    }
+  ]
+}

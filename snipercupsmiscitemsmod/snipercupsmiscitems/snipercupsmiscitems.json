@@ -106,6 +106,131 @@
       "component_data": {
         "is_liquid": false
       }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "decorativepaperpuncher",
+      "name": "Decorative paper puncher",
+      "item sprite icon id": "paperpuncher_icon",
+      "description": "For creating beautiful shapes out of paper",
+      "weight": 0.1,
+      "price": 1.0,
+      "size": 0.3,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": true,
+        "tool_quilality": [
+          [
+            "cutting",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": [
+          {
+            "id": "plastic_chunk",
+            "number": 2
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "wallet",
+      "name": "Wallet",
+      "item sprite icon id": "paperpuncher_icon",
+      "description": "For carrying money and cards",
+      "weight": 0.1,
+      "price": 1.0,
+      "size": 0.3,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": true,
+        "tool_quilality": [
+          [
+            "cutting",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": [
+          {
+            "id": "leather_patch",
+            "number": 2
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "spray_painter",
+      "name": "Spray painter",
+      "item sprite icon id": "spraypainter_icon",
+      "description": "Put paint in and color the world",
+      "weight": 2.0,
+      "price": 15.0,
+      "size": 2.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "mixer_kitchen",
+      "name": "Kitchen mixer",
+      "item sprite icon id": "mixer_icon",
+      "description": "Typically used when making bakery products",
+      "weight": 4.0,
+      "price": 25.0,
+      "size": 3.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": true,
+        "tool_quilality": [
+          [
+            "assembling",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": false
+      }
     }
   ]
 }

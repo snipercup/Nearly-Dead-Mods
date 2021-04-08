@@ -17,3 +17,8 @@ Ceramic bowl | X |  | |
 Decorative bowl | X |  | |
 Fork | X |  |  | X
 Tripod | X |  | X |
+Musical keyboard | X |  |  | X
+Mixer | X |  |  |
+Spraypainter | X | | |
+Wallet | X |  |  |
+Decorative paper puncher | X |  |  |

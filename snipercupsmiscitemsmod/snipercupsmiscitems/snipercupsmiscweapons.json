@@ -291,6 +291,305 @@
       "aim_type": "action_only",
       "mod slot type": "none",
       "mod slot size": 0
+    },
+    {
+      "type": "item",
+      "item_type": "Weapon",
+      "id": "keyboard_piano",
+      "name": "Keyboard",
+      "item sprite icon id": "keyboard_icon",
+      "description": "A musical instrument",
+      "weight": 2.0,
+      "price": 1.0,
+      "size": 2.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [
+          [
+            "assembling",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [
+          {
+            "id": "crafting",
+            "number": 2
+          }
+        ],
+        "disassemble_item_list": [
+          {
+            "id": "metal_chunk",
+            "number": 1
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "bone_id": "humanoid",
+      "part list": [],
+      "base rotation": 45.0,
+      "color_preset_id": "none",
+      "male front sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "keyboard_wield",
+          "layer_names": "handA_gearB",
+          "position": [
+            -15.0,
+            -15.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -7.0,
+            -8.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "male back sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "keyboard_wield",
+          "layer_names": "handA_gearB",
+          "position": [
+            -15.0,
+            -15.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -30.0,
+            -30.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "female front sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "keyboard_wield",
+          "layer_names": "handB_gearA",
+          "position": [
+            -8.0,
+            -15.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -7.0,
+            -8.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "female back sprites": [
+        {
+          "sprite_name": "new sprite (0)",
+          "sprite_file_name": "keyboard_wield",
+          "layer_names": "handB_gearA",
+          "position": [
+            -10.0,
+            -15.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            -30.0,
+            -30.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "melee_weapon_data": {
+        "melee_damage": 20.0,
+        "melee_attack_speed": 1.0,
+        "melee_staggering": 0.0,
+        "melee_falling": 0.0,
+        "melee_knockback": 0.0,
+        "melee_range": 0.6,
+        "equip_type": "dual_only",
+        "gfx_dic": [
+          {
+            "call_action_type": "thrust",
+            "gfx_list": [
+              {
+                "action_type": "thrust",
+                "gfx_id": "thrust_spear_01",
+                "distance": 0.6,
+                "gfx_scale": [
+                  1.0,
+                  1.0
+                ],
+                "hit_gfx": "hit_point_small_01"
+              }
+            ]
+          },
+          {
+            "call_action_type": "thresh",
+            "gfx_list": [
+              {
+                "action_type": "thrust",
+                "gfx_id": "thrust_spear_02",
+                "distance": 0.6,
+                "gfx_scale": [
+                  1.0,
+                  1.0
+                ],
+                "hit_gfx": "hit_point_small_01"
+              }
+            ]
+          },
+          {
+            "call_action_type": "swing",
+            "gfx_list": [
+              {
+                "action_type": "swing",
+                "gfx_id": "slash_sword_01",
+                "distance": 0.75,
+                "gfx_scale": [
+                  1.0,
+                  1.0
+                ],
+                "hit_gfx": "hit_slash_small_01"
+              }
+            ]
+          }
+        ],
+        "effect_list": []
+      },
+      "is_ranged_weapon": false,
+      "item_weapon_type": "spear",
+      "action_set": {
+        "available_unique_actions": [
+          {
+            "id": "swing_main"
+          },
+          {
+            "id": "swing_sub"
+          }
+        ],
+        "available_action_sets": [
+          {
+            "id": "spear"
+          }
+        ],
+        "main_setting": [
+          {
+            "type": "action_set",
+            "id": {
+              "id": "spear"
+            }
+          },
+          {
+            "type": "unique_action",
+            "id": {
+              "id": "swing_main"
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          }
+        ],
+        "sub_setting": [
+          {
+            "type": "action_set",
+            "id": {
+              "id": "spear"
+            }
+          },
+          {
+            "type": "unique_action",
+            "id": {
+              "id": "swing_sub"
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          },
+          {
+            "type": "empty",
+            "id": {
+              "id": ""
+            }
+          }
+        ]
+      },
+      "aim_type": "ready",
+      "mod slot type": "sword",
+      "mod slot": "base",
+      "mod slot size": 0
     }
   ]
 }

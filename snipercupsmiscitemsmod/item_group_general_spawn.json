@@ -511,6 +511,10 @@
         {
           "id": "fork",
           "number": 100
+        },
+        {
+          "id": "mixer_kitchen",
+          "number": 50
         }
       ]
     },
@@ -570,6 +574,10 @@
         {
           "id": "decorativebowl",
           "number": 80
+        },
+        {
+          "id": "keyboard_piano",
+          "number": 15
         }
       ]
     },
@@ -786,6 +794,10 @@
         {
           "id": "multiusetransferpump",
           "number": 50
+        },
+        {
+          "id": "spray_painter",
+          "number": 80
         }
       ]
     },
@@ -1075,6 +1087,10 @@
         {
           "id": "paper",
           "number": 100
+        },
+        {
+          "id": "decorativepaperpuncher",
+          "number": 10
         }
       ]
     },
