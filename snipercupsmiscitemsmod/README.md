@@ -1,5 +1,5 @@
 # snipercups misc items
-Some miscellaneous items added to the game. 
+Some miscellaneous items added to the game. Works with version 2021.04.05 of the game.
 
 ## Installation
 - Go to [this page](https://github.com/snipercup/Nearly-Dead-Mods) and click the green button on the top-right and click download zip-file.
