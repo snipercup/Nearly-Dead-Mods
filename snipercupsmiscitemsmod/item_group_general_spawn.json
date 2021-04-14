@@ -476,6 +476,10 @@
         {
           "id": "vacuum_sweeper",
           "number": 60
+        },
+        {
+          "id": "oil_tank_treatment_additive_bottle",
+          "number": 50
         }
       ]
     },
@@ -582,6 +586,10 @@
         {
           "id": "keyboard_piano",
           "number": 15
+        },
+        {
+          "id": "photo_camera",
+          "number": 40
         }
       ]
     },
