@@ -11,7 +11,7 @@ All items will spawn in-game in some place.
 These are the items that currently excist in the mod:
 
 Name | Item | Recipe | Construction | Weapon | Liquid
------------- | ------------- | ------------- | ------------- | -------------
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
 Multi use transfer pump | X |  | |
 Ceramic bowl | X |  | | |
 Decorative bowl | X |  | | |
