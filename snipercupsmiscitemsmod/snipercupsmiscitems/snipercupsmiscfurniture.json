@@ -41,7 +41,7 @@
       "max_durability": 600,
       "size_x": 1,
       "size_z": 1,
-      "is_passable": true,
+      "is_passable": false,
       "pass_light": true,
       "pass_bullet": true,
       "can_be_mounted": false,

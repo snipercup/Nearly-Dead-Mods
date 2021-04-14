@@ -1,0 +1,1061 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "dirty_water",
+      "name": "Dirty water",
+      "item sprite icon id": "item_dirty_water_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "water",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": -4.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "water",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 120.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 0.0
+          },
+          {
+            "effect_type": "add_effect_randomly",
+            "data": {
+              "id": "stomachache",
+              "number1": 10.0,
+              "number2": 1
+            }
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "clean_water",
+      "name": "Clean water",
+      "item sprite icon id": "item_water_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "water",
+            "number": 1.0
+          },
+          {
+            "id": "water_clean",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 0.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "water",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 150.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 0.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "bleach",
+      "name": "Bleach",
+      "item sprite icon id": "item_bleach_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.15,
+      "price": 0.0,
+      "size": 0.25,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "detergent",
+            "number": 2.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": -10.0,
+        "use_own_gfx": false,
+        "consume_time": 0.5,
+        "is_liquid": true,
+        "liquid_id": "none",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": -100.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": -100.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "cola",
+      "name": "Cola",
+      "item sprite icon id": "item_cola_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 6.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 110.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 20.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "lime_soda",
+      "name": "Lime soda",
+      "item sprite icon id": "item_lime_soda_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 6.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 110.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 20.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "milk",
+      "name": "Milk",
+      "item sprite icon id": "item_milk_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": 8.0,
+        "fun": 2.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 120.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 30.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "tea",
+      "name": "Tea",
+      "item sprite icon id": "item_tea_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 4.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 140.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 0.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "sports_drink",
+      "name": "Sports drink",
+      "item sprite icon id": "item_sports_drink_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 0.0,
+        "use_own_gfx": false,
+        "consume_time": 0.75,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 160.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 10.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "cooking_oil",
+      "name": "Cooking oil",
+      "item sprite icon id": "item_cooking_oil_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.1,
+      "price": 0.0,
+      "size": 0.25,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": -6.0,
+        "use_own_gfx": false,
+        "consume_time": 1.0,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": -40.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 200.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "honey",
+      "name": "Honey",
+      "item sprite icon id": "item_honey_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.4,
+      "price": 0.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 4.0,
+        "use_own_gfx": false,
+        "consume_time": 1.0,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": -10.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 80.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "peanut_butter",
+      "name": "Peanut butter",
+      "item sprite icon id": "item_peanut_butter_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.4,
+      "price": 0.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 2.0,
+        "use_own_gfx": false,
+        "consume_time": 1.5,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": -25.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 60.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "strawberry_jam",
+      "name": "Strawberry jam",
+      "item sprite icon id": "item_strawberry_jam_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.4,
+      "price": 0.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "berry",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 5.0,
+        "use_own_gfx": false,
+        "consume_time": 1.0,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 0.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 60.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "blood",
+      "name": "Blood",
+      "item sprite icon id": "item_blood_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": 10.0,
+        "fun": -3.0,
+        "use_own_gfx": false,
+        "consume_time": 1.0,
+        "is_liquid": true,
+        "liquid_id": "blood",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 50.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 15.0
+          }
+        ],
+        "flavor_list": [
+          "raw_meat",
+          "meat",
+          "grotesque"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "tomato_soup",
+      "name": "Tomato soup",
+      "item sprite icon id": "item_tomato_soup_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": 10.0,
+        "fun": 3.0,
+        "use_own_gfx": false,
+        "consume_time": 1.0,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 50.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 100.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "gasoline",
+      "name": "Gasoline",
+      "item sprite icon id": "item_gasoline_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.002,
+      "price": 0.0,
+      "size": 0.01,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "gasoline",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "none"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "diesel",
+      "name": "Diesel",
+      "item sprite icon id": "item_diesel_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.003,
+      "price": 0.0,
+      "size": 0.01,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "diesel",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "none"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "machine_oil",
+      "name": "Machine oil",
+      "item sprite icon id": "item_machine_oil_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.03,
+      "price": 0.0,
+      "size": 0.1,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "none"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "cough_syrup",
+      "name": "Cough syrup",
+      "item sprite icon id": "item_cough_syrup_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.3,
+      "price": 0.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 0.0,
+        "use_own_gfx": false,
+        "consume_time": 0.5,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 10.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 10.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "anticeptic",
+      "name": "Anticeptic",
+      "item sprite icon id": "item_anticeptic_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.12,
+      "price": 0.0,
+      "size": 0.2,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "none"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Food",
+      "id": "wildberry_jam",
+      "name": "Wildberry jam",
+      "item sprite icon id": "item_wildberry_jam_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.4,
+      "price": 0.0,
+      "size": 0.5,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "berry",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "food_data": {
+        "expiration_date": -1.0,
+        "fun": 3.0,
+        "use_own_gfx": false,
+        "consume_time": 1.0,
+        "is_liquid": true,
+        "liquid_id": "spilled_food",
+        "have_by_product": false,
+        "consume_text": "Drink",
+        "consume_icon": "UI_action_use_drink",
+        "consume_effect_list": [
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "thirst",
+            "magnitude": 0.0
+          },
+          {
+            "effect_type": "mod_condition",
+            "condition_id": "hunger",
+            "magnitude": 50.0
+          }
+        ],
+        "flavor_list": []
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "paint",
+      "name": "Paint",
+      "item sprite icon id": "item_paint_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.7,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "blood"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "soap_water",
+      "name": "Soap water",
+      "item sprite icon id": "item_milk_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "detergent",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "water"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "bone_glue",
+      "name": "Bone glue",
+      "item sprite icon id": "item_milk_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.6,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [
+          {
+            "id": "glue",
+            "number": 1.0
+          }
+        ],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "water"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "mysterious_chemical",
+      "name": "Mysterious chemical",
+      "item sprite icon id": "item_mysterious_chemical_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.15,
+      "price": 0.0,
+      "size": 0.25,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "none"
+      }
+    },
+    {
+      "type": "item",
+      "item_type": "Component",
+      "id": "strange_compound",
+      "name": "Strange compound",
+      "item sprite icon id": "item_strange_compound_icon",
+      "description": "This description will be added soon.",
+      "weight": 0.08,
+      "price": 0.0,
+      "size": 0.1,
+      "container_type": "none",
+      "is mergeable": true,
+      "base_stack": 1,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": false,
+        "tool_quilality": [],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": []
+      },
+      "has_function_of_tool": false,
+      "component_data": {
+        "is_liquid": true,
+        "liquid_id": "none"
+      }
+    }
+  ]
+}

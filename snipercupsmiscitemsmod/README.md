@@ -10,17 +10,19 @@ Some miscellaneous items added to the game. Works with version 2021.04.05 of the
 All items will spawn in-game in some place.
 These are the items that currently excist in the mod:
 
-Name | Item | Recipe | Construction | Weapon
+Name | Item | Recipe | Construction | Weapon | Liquid
 ------------ | ------------- | ------------- | ------------- | -------------
 Multi use transfer pump | X |  | |
-Ceramic bowl | X |  | |
-Decorative bowl | X |  | |
-Fork | X |  |  | X
-Tripod | X |  | X |
-Musical keyboard | X |  |  | X
-Mixer | X |  |  |
-Spraypainter | X | | |
-Wallet | X |  |  |
-Decorative paper puncher | X |  |  |
-Vacuum sweeper | X |  |  |
-Kid's building block | X |  |  |
+Ceramic bowl | X |  | | |
+Decorative bowl | X |  | | |
+Fork | X |  |  | X |
+Tripod | X |  | X | |
+Musical keyboard | X |  |  | X |
+Mixer | X |  |  | |
+Spraypainter | X | | | |
+Wallet | X |  |  | |
+Decorative paper puncher | X |  |  | |
+Vacuum sweeper | X |  |  | |
+Kid's building block | X |  |  | |
+Oil tank treatment additive | X |  |  | | X
+Photo camera | X |  |  | |
