@@ -1,0 +1,210 @@
+{
+  "mod id": "core",
+  "data": [
+    {
+      "type": "item",
+      "item_type": "Armor",
+      "id": "bluetooth_headphone",
+      "name": "Bluetooth headphone",
+      "item sprite icon id": "bluetoothheadphone_icon",
+      "description": "A headpone that can connect to bluetooth devices",
+      "weight": 1.0,
+      "price": 0.0,
+      "size": 1.0,
+      "container_type": "none",
+      "is mergeable": false,
+      "can_throw": false,
+      "material_data": {
+        "charging_data": [],
+        "can_disassemble": true,
+        "tool_quilality": [
+          [
+            "cutting",
+            2
+          ]
+        ],
+        "skill_difficulty_list": [],
+        "disassemble_item_list": [
+          {
+            "id": "leather_patch",
+            "number": 1
+          },
+          {
+            "id": "electrical_components",
+            "number": 1
+          }
+        ]
+      },
+      "has_function_of_tool": false,
+      "bone_id": "humanoid",
+      "part list": [],
+      "base rotation": 0.0,
+      "color_preset_id": "none",
+      "male front sprites": [
+        {
+          "sprite_name": "outer",
+          "sprite_file_name": "bluetoothheadphone_front",
+          "layer_names": "hat",
+          "position": [
+            -12.0,
+            16.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            0.0,
+            0.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "male back sprites": [
+        {
+          "sprite_name": "outer",
+          "sprite_file_name": "bluetoothheadphone_back",
+          "layer_names": "hat",
+          "position": [
+            -6.0,
+            15.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            0.0,
+            0.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "female front sprites": [
+        {
+          "sprite_name": "outer",
+          "sprite_file_name": "bluetoothheadphone_front",
+          "layer_names": "hat",
+          "position": [
+            -12.0,
+            16.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            0.0,
+            0.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "female back sprites": [
+        {
+          "sprite_name": "outer",
+          "sprite_file_name": "bluetoothheadphone_back",
+          "layer_names": "hat",
+          "position": [
+            -6.0,
+            15.0
+          ],
+          "rotation": 0.0,
+          "pivot": [
+            0.0,
+            0.0
+          ],
+          "synchronize_preset": true,
+          "use_own_color": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preset_id": "none",
+          "priority": 0,
+          "use_fram_animation": false
+        }
+      ],
+      "armor_data": {
+        "armor_encumbrance": 1.0,
+        "armor_warmth": 0.0,
+        "equip_priority": 800,
+        "armor_defence_point": [
+          [
+            "physical",
+            1.0
+          ],
+          [
+            "fire",
+            0.0
+          ],
+          [
+            "electronic",
+            0.0
+          ],
+          [
+            "environmental",
+            0.0
+          ],
+          [
+            "arcane",
+            0.0
+          ],
+          [
+            "cold",
+            0.0
+          ]
+        ],
+        "item equip location": "humanoid_head",
+        "armor_defence_ratio": [
+          [
+            "physical",
+            0.0
+          ],
+          [
+            "fire",
+            0.0
+          ],
+          [
+            "electronic",
+            0.0
+          ],
+          [
+            "environmental",
+            0.0
+          ],
+          [
+            "arcane",
+            0.0
+          ],
+          [
+            "cold",
+            0.0
+          ]
+        ],
+        "effect_list": []
+      },
+      "mod slot type": "none",
+      "mod slot size": 0
+    }
+  ]
+}

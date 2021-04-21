@@ -369,6 +369,10 @@
         {
           "id": "mittens",
           "number": 50
+        },
+        {
+          "id": "bluetooth_headphone",
+          "number": 60
         }
       ]
     },
@@ -1088,6 +1092,10 @@
         {
           "id": "tripod_folded",
           "number": 30
+        },
+        {
+          "id": "resistancebelt",
+          "number": 1
         }
       ]
     },
